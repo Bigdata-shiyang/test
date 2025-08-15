@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
           TARGET_REPO_OWNER: Bigdata-shiyang
-          TARGET_REPO_NAME: llpkg  # 改为 llpkg
+          TARGET_REPO_NAME: test
         run: |
           echo "Starting wheel upload process for PR #${{ github.event.number }}"
           llpkgstore wheel-upload ${{ github.event.number }}
