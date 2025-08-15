@@ -1,4 +1,4 @@
-module numpy
+module github.com/Bigdata-shiyang/test/numpy
 
 go 1.24.5
 
