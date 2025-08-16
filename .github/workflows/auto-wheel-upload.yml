@@ -1,0 +1,66 @@
+name: Auto Wheel Upload
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+    paths:
+      - '**/*.go'  # 监听Go文件变化
+      - '**/llpkg.cfg'  # 监听配置文件变化
+      - '**/go.mod'  # 监听模块文件变化
+      - '**/go.sum'  # 监听依赖文件变化
+
+jobs:
+  process-wheel-request:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.22'
+
+      - name: Install llpkgstore
+        run: |
+          go install -v github.com/Bigdata-shiyang/llpkgstore-test/cmd/llpkgstore@latest
+
+      - name: Process wheel request
+        env:
+          GITHUB_TOKEN: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
+          TARGET_REPO_OWNER: Bigdata-shiyang
+          TARGET_REPO_NAME: test  # 指向当前仓库
+        run: |
+          echo "Starting wheel upload process for PR #${{ github.event.number }}"
+          llpkgstore wheel-upload ${{ github.event.number }}
+
+      - name: Add success label
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
+        run: |
+          echo "Adding success label to PR #${{ github.event.number }}"
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.WHEEL_UPLOAD_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/labels \
+            -d '{"labels":["wheel-added"]}'
+
+      - name: Add failure label
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
+        run: |
+          echo "Adding failure label to PR #${{ github.event.number }}"
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.WHEEL_UPLOAD_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/labels \
+            -d '{"labels":["wheel-failed"]}'
