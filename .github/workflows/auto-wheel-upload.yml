@@ -4,7 +4,10 @@ on:
   pull_request:
     types: [opened, edited, synchronize]
     paths:
-      - 'llpkg/**'  # 只监听 llpkg 文件夹的变化
+      - '**/*.go'  # 监听Go文件变化
+      - '**/llpkg.cfg'  # 监听配置文件变化
+      - '**/go.mod'  # 监听模块文件变化
+      - '**/go.sum'  # 监听依赖文件变化
 
 jobs:
   process-wheel-request:
@@ -33,7 +36,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WHEEL_UPLOAD_TOKEN }}
           TARGET_REPO_OWNER: Bigdata-shiyang
-          TARGET_REPO_NAME: test  
+          TARGET_REPO_NAME: test  # 指向当前仓库
         run: |
           echo "Starting wheel upload process for PR #${{ github.event.number }}"
           llpkgstore wheel-upload ${{ github.event.number }}
@@ -60,4 +63,4 @@ jobs:
             -H "Authorization: token ${{ secrets.WHEEL_UPLOAD_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/labels \
-            -d '{"labels":["wheel-failed"]}' 
+            -d '{"labels":["wheel-failed"]}'
