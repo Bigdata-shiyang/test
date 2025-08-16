@@ -1,0 +1,3242 @@
+[
+  {
+    "mangle": "crypto_aead_aegis128l_abytes",
+    "c++": "crypto_aead_aegis128l_abytes()",
+    "go": "CryptoAeadAegis128lAbytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_decrypt",
+    "c++": "crypto_aead_aegis128l_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis128lDecrypt"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_decrypt_detached",
+    "c++": "crypto_aead_aegis128l_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis128lDecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_encrypt",
+    "c++": "crypto_aead_aegis128l_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis128lEncrypt"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_encrypt_detached",
+    "c++": "crypto_aead_aegis128l_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis128lEncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_keybytes",
+    "c++": "crypto_aead_aegis128l_keybytes()",
+    "go": "CryptoAeadAegis128lKeybytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_keygen",
+    "c++": "crypto_aead_aegis128l_keygen(unsigned char *)",
+    "go": "CryptoAeadAegis128lKeygen"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_messagebytes_max",
+    "c++": "crypto_aead_aegis128l_messagebytes_max()",
+    "go": "CryptoAeadAegis128lMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_npubbytes",
+    "c++": "crypto_aead_aegis128l_npubbytes()",
+    "go": "CryptoAeadAegis128lNpubbytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis128l_nsecbytes",
+    "c++": "crypto_aead_aegis128l_nsecbytes()",
+    "go": "CryptoAeadAegis128lNsecbytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_abytes",
+    "c++": "crypto_aead_aegis256_abytes()",
+    "go": "CryptoAeadAegis256Abytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_decrypt",
+    "c++": "crypto_aead_aegis256_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis256Decrypt"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_decrypt_detached",
+    "c++": "crypto_aead_aegis256_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis256DecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_encrypt",
+    "c++": "crypto_aead_aegis256_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis256Encrypt"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_encrypt_detached",
+    "c++": "crypto_aead_aegis256_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAegis256EncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_keybytes",
+    "c++": "crypto_aead_aegis256_keybytes()",
+    "go": "CryptoAeadAegis256Keybytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_keygen",
+    "c++": "crypto_aead_aegis256_keygen(unsigned char *)",
+    "go": "CryptoAeadAegis256Keygen"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_messagebytes_max",
+    "c++": "crypto_aead_aegis256_messagebytes_max()",
+    "go": "CryptoAeadAegis256MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_npubbytes",
+    "c++": "crypto_aead_aegis256_npubbytes()",
+    "go": "CryptoAeadAegis256Npubbytes"
+  },
+  {
+    "mangle": "crypto_aead_aegis256_nsecbytes",
+    "c++": "crypto_aead_aegis256_nsecbytes()",
+    "go": "CryptoAeadAegis256Nsecbytes"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_abytes",
+    "c++": "crypto_aead_aes256gcm_abytes()",
+    "go": "CryptoAeadAes256gcmAbytes"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_beforenm",
+    "c++": "crypto_aead_aes256gcm_beforenm(crypto_aead_aes256gcm_state *, const unsigned char *)",
+    "go": "(*CryptoAeadAes256gcmState).CryptoAeadAes256gcmBeforenm"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_decrypt",
+    "c++": "crypto_aead_aes256gcm_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAes256gcmDecrypt"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_decrypt_afternm",
+    "c++": "crypto_aead_aes256gcm_decrypt_afternm(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const crypto_aead_aes256gcm_state *)",
+    "go": "CryptoAeadAes256gcmDecryptAfternm"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_decrypt_detached",
+    "c++": "crypto_aead_aes256gcm_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAes256gcmDecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_decrypt_detached_afternm",
+    "c++": "crypto_aead_aes256gcm_decrypt_detached_afternm(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const crypto_aead_aes256gcm_state *)",
+    "go": "CryptoAeadAes256gcmDecryptDetachedAfternm"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_encrypt",
+    "c++": "crypto_aead_aes256gcm_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAes256gcmEncrypt"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_encrypt_afternm",
+    "c++": "crypto_aead_aes256gcm_encrypt_afternm(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const crypto_aead_aes256gcm_state *)",
+    "go": "CryptoAeadAes256gcmEncryptAfternm"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_encrypt_detached",
+    "c++": "crypto_aead_aes256gcm_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadAes256gcmEncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_encrypt_detached_afternm",
+    "c++": "crypto_aead_aes256gcm_encrypt_detached_afternm(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const crypto_aead_aes256gcm_state *)",
+    "go": "CryptoAeadAes256gcmEncryptDetachedAfternm"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_is_available",
+    "c++": "crypto_aead_aes256gcm_is_available()",
+    "go": "CryptoAeadAes256gcmIsAvailable"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_keybytes",
+    "c++": "crypto_aead_aes256gcm_keybytes()",
+    "go": "CryptoAeadAes256gcmKeybytes"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_keygen",
+    "c++": "crypto_aead_aes256gcm_keygen(unsigned char *)",
+    "go": "CryptoAeadAes256gcmKeygen"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_messagebytes_max",
+    "c++": "crypto_aead_aes256gcm_messagebytes_max()",
+    "go": "CryptoAeadAes256gcmMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_npubbytes",
+    "c++": "crypto_aead_aes256gcm_npubbytes()",
+    "go": "CryptoAeadAes256gcmNpubbytes"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_nsecbytes",
+    "c++": "crypto_aead_aes256gcm_nsecbytes()",
+    "go": "CryptoAeadAes256gcmNsecbytes"
+  },
+  {
+    "mangle": "crypto_aead_aes256gcm_statebytes",
+    "c++": "crypto_aead_aes256gcm_statebytes()",
+    "go": "CryptoAeadAes256gcmStatebytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_abytes",
+    "c++": "crypto_aead_chacha20poly1305_abytes()",
+    "go": "CryptoAeadChacha20poly1305Abytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_decrypt",
+    "c++": "crypto_aead_chacha20poly1305_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305Decrypt"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_decrypt_detached",
+    "c++": "crypto_aead_chacha20poly1305_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305DecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_encrypt",
+    "c++": "crypto_aead_chacha20poly1305_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305Encrypt"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_encrypt_detached",
+    "c++": "crypto_aead_chacha20poly1305_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305EncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_abytes",
+    "c++": "crypto_aead_chacha20poly1305_ietf_abytes()",
+    "go": "CryptoAeadChacha20poly1305IetfAbytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_decrypt",
+    "c++": "crypto_aead_chacha20poly1305_ietf_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305IetfDecrypt"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_decrypt_detached",
+    "c++": "crypto_aead_chacha20poly1305_ietf_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305IetfDecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_encrypt",
+    "c++": "crypto_aead_chacha20poly1305_ietf_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305IetfEncrypt"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_encrypt_detached",
+    "c++": "crypto_aead_chacha20poly1305_ietf_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305IetfEncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_keybytes",
+    "c++": "crypto_aead_chacha20poly1305_ietf_keybytes()",
+    "go": "CryptoAeadChacha20poly1305IetfKeybytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_keygen",
+    "c++": "crypto_aead_chacha20poly1305_ietf_keygen(unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305IetfKeygen"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_messagebytes_max",
+    "c++": "crypto_aead_chacha20poly1305_ietf_messagebytes_max()",
+    "go": "CryptoAeadChacha20poly1305IetfMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_npubbytes",
+    "c++": "crypto_aead_chacha20poly1305_ietf_npubbytes()",
+    "go": "CryptoAeadChacha20poly1305IetfNpubbytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_ietf_nsecbytes",
+    "c++": "crypto_aead_chacha20poly1305_ietf_nsecbytes()",
+    "go": "CryptoAeadChacha20poly1305IetfNsecbytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_keybytes",
+    "c++": "crypto_aead_chacha20poly1305_keybytes()",
+    "go": "CryptoAeadChacha20poly1305Keybytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_keygen",
+    "c++": "crypto_aead_chacha20poly1305_keygen(unsigned char *)",
+    "go": "CryptoAeadChacha20poly1305Keygen"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_messagebytes_max",
+    "c++": "crypto_aead_chacha20poly1305_messagebytes_max()",
+    "go": "CryptoAeadChacha20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_npubbytes",
+    "c++": "crypto_aead_chacha20poly1305_npubbytes()",
+    "go": "CryptoAeadChacha20poly1305Npubbytes"
+  },
+  {
+    "mangle": "crypto_aead_chacha20poly1305_nsecbytes",
+    "c++": "crypto_aead_chacha20poly1305_nsecbytes()",
+    "go": "CryptoAeadChacha20poly1305Nsecbytes"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_abytes",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_abytes()",
+    "go": "CryptoAeadXchacha20poly1305IetfAbytes"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_decrypt",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_decrypt(unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadXchacha20poly1305IetfDecrypt"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_decrypt_detached",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_decrypt_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadXchacha20poly1305IetfDecryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_encrypt",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_encrypt(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadXchacha20poly1305IetfEncrypt"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_encrypt_detached",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_encrypt_detached(unsigned char *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoAeadXchacha20poly1305IetfEncryptDetached"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_keybytes",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_keybytes()",
+    "go": "CryptoAeadXchacha20poly1305IetfKeybytes"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_keygen",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_keygen(unsigned char *)",
+    "go": "CryptoAeadXchacha20poly1305IetfKeygen"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_messagebytes_max",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_messagebytes_max()",
+    "go": "CryptoAeadXchacha20poly1305IetfMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_npubbytes",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_npubbytes()",
+    "go": "CryptoAeadXchacha20poly1305IetfNpubbytes"
+  },
+  {
+    "mangle": "crypto_aead_xchacha20poly1305_ietf_nsecbytes",
+    "c++": "crypto_aead_xchacha20poly1305_ietf_nsecbytes()",
+    "go": "CryptoAeadXchacha20poly1305IetfNsecbytes"
+  },
+  {
+    "mangle": "crypto_auth",
+    "c++": "crypto_auth(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuth"
+  },
+  {
+    "mangle": "crypto_auth_bytes",
+    "c++": "crypto_auth_bytes()",
+    "go": "CryptoAuthBytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256",
+    "c++": "crypto_auth_hmacsha256(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha256"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_bytes",
+    "c++": "crypto_auth_hmacsha256_bytes()",
+    "go": "CryptoAuthHmacsha256Bytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_final",
+    "c++": "crypto_auth_hmacsha256_final(crypto_auth_hmacsha256_state *, unsigned char *)",
+    "go": "(*CryptoAuthHmacsha256State).CryptoAuthHmacsha256Final"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_init",
+    "c++": "crypto_auth_hmacsha256_init(crypto_auth_hmacsha256_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoAuthHmacsha256State).CryptoAuthHmacsha256Init"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_keybytes",
+    "c++": "crypto_auth_hmacsha256_keybytes()",
+    "go": "CryptoAuthHmacsha256Keybytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_keygen",
+    "c++": "crypto_auth_hmacsha256_keygen(unsigned char *)",
+    "go": "CryptoAuthHmacsha256Keygen"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_statebytes",
+    "c++": "crypto_auth_hmacsha256_statebytes()",
+    "go": "CryptoAuthHmacsha256Statebytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_update",
+    "c++": "crypto_auth_hmacsha256_update(crypto_auth_hmacsha256_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoAuthHmacsha256State).CryptoAuthHmacsha256Update"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha256_verify",
+    "c++": "crypto_auth_hmacsha256_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha256Verify"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512",
+    "c++": "crypto_auth_hmacsha512(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha512"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256",
+    "c++": "crypto_auth_hmacsha512256(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha512256"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_bytes",
+    "c++": "crypto_auth_hmacsha512256_bytes()",
+    "go": "CryptoAuthHmacsha512256Bytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_final",
+    "c++": "crypto_auth_hmacsha512256_final(crypto_auth_hmacsha512256_state *, unsigned char *)",
+    "go": "(*CryptoAuthHmacsha512256State).CryptoAuthHmacsha512256Final"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_init",
+    "c++": "crypto_auth_hmacsha512256_init(crypto_auth_hmacsha512256_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoAuthHmacsha512256State).CryptoAuthHmacsha512256Init"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_keybytes",
+    "c++": "crypto_auth_hmacsha512256_keybytes()",
+    "go": "CryptoAuthHmacsha512256Keybytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_keygen",
+    "c++": "crypto_auth_hmacsha512256_keygen(unsigned char *)",
+    "go": "CryptoAuthHmacsha512256Keygen"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_statebytes",
+    "c++": "crypto_auth_hmacsha512256_statebytes()",
+    "go": "CryptoAuthHmacsha512256Statebytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_update",
+    "c++": "crypto_auth_hmacsha512256_update(crypto_auth_hmacsha512256_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoAuthHmacsha512256State).CryptoAuthHmacsha512256Update"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512256_verify",
+    "c++": "crypto_auth_hmacsha512256_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha512256Verify"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_bytes",
+    "c++": "crypto_auth_hmacsha512_bytes()",
+    "go": "CryptoAuthHmacsha512Bytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_final",
+    "c++": "crypto_auth_hmacsha512_final(crypto_auth_hmacsha512_state *, unsigned char *)",
+    "go": "(*CryptoAuthHmacsha512State).CryptoAuthHmacsha512Final"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_init",
+    "c++": "crypto_auth_hmacsha512_init(crypto_auth_hmacsha512_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoAuthHmacsha512State).CryptoAuthHmacsha512Init"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_keybytes",
+    "c++": "crypto_auth_hmacsha512_keybytes()",
+    "go": "CryptoAuthHmacsha512Keybytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_keygen",
+    "c++": "crypto_auth_hmacsha512_keygen(unsigned char *)",
+    "go": "CryptoAuthHmacsha512Keygen"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_statebytes",
+    "c++": "crypto_auth_hmacsha512_statebytes()",
+    "go": "CryptoAuthHmacsha512Statebytes"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_update",
+    "c++": "crypto_auth_hmacsha512_update(crypto_auth_hmacsha512_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoAuthHmacsha512State).CryptoAuthHmacsha512Update"
+  },
+  {
+    "mangle": "crypto_auth_hmacsha512_verify",
+    "c++": "crypto_auth_hmacsha512_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthHmacsha512Verify"
+  },
+  {
+    "mangle": "crypto_auth_keybytes",
+    "c++": "crypto_auth_keybytes()",
+    "go": "CryptoAuthKeybytes"
+  },
+  {
+    "mangle": "crypto_auth_keygen",
+    "c++": "crypto_auth_keygen(unsigned char *)",
+    "go": "CryptoAuthKeygen"
+  },
+  {
+    "mangle": "crypto_auth_primitive",
+    "c++": "crypto_auth_primitive()",
+    "go": "CryptoAuthPrimitive"
+  },
+  {
+    "mangle": "crypto_auth_verify",
+    "c++": "crypto_auth_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoAuthVerify"
+  },
+  {
+    "mangle": "crypto_box",
+    "c++": "crypto_box(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBox"
+  },
+  {
+    "mangle": "crypto_box_afternm",
+    "c++": "crypto_box_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxAfternm"
+  },
+  {
+    "mangle": "crypto_box_beforenm",
+    "c++": "crypto_box_beforenm(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxBeforenm"
+  },
+  {
+    "mangle": "crypto_box_beforenmbytes",
+    "c++": "crypto_box_beforenmbytes()",
+    "go": "CryptoBoxBeforenmbytes"
+  },
+  {
+    "mangle": "crypto_box_boxzerobytes",
+    "c++": "crypto_box_boxzerobytes()",
+    "go": "CryptoBoxBoxzerobytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_beforenm",
+    "c++": "crypto_box_curve25519xchacha20poly1305_beforenm(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Beforenm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_beforenmbytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_beforenmbytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Beforenmbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_detached",
+    "c++": "crypto_box_curve25519xchacha20poly1305_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Detached"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_detached_afternm",
+    "c++": "crypto_box_curve25519xchacha20poly1305_detached_afternm(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305DetachedAfternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_easy",
+    "c++": "crypto_box_curve25519xchacha20poly1305_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Easy"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_easy_afternm",
+    "c++": "crypto_box_curve25519xchacha20poly1305_easy_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305EasyAfternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_keypair",
+    "c++": "crypto_box_curve25519xchacha20poly1305_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Keypair"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_macbytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_macbytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Macbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_messagebytes_max",
+    "c++": "crypto_box_curve25519xchacha20poly1305_messagebytes_max()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_noncebytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_noncebytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Noncebytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_open_detached",
+    "c++": "crypto_box_curve25519xchacha20poly1305_open_detached(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305OpenDetached"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_open_detached_afternm",
+    "c++": "crypto_box_curve25519xchacha20poly1305_open_detached_afternm(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305OpenDetachedAfternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_open_easy",
+    "c++": "crypto_box_curve25519xchacha20poly1305_open_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305OpenEasy"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_open_easy_afternm",
+    "c++": "crypto_box_curve25519xchacha20poly1305_open_easy_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305OpenEasyAfternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_publickeybytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_publickeybytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Publickeybytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_seal",
+    "c++": "crypto_box_curve25519xchacha20poly1305_seal(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Seal"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_seal_open",
+    "c++": "crypto_box_curve25519xchacha20poly1305_seal_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305SealOpen"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_sealbytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_sealbytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Sealbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_secretkeybytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_secretkeybytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Secretkeybytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_seed_keypair",
+    "c++": "crypto_box_curve25519xchacha20poly1305_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xchacha20poly1305SeedKeypair"
+  },
+  {
+    "mangle": "crypto_box_curve25519xchacha20poly1305_seedbytes",
+    "c++": "crypto_box_curve25519xchacha20poly1305_seedbytes()",
+    "go": "CryptoBoxCurve25519xchacha20poly1305Seedbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305",
+    "c++": "crypto_box_curve25519xsalsa20poly1305(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_afternm",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Afternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_beforenm",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_beforenm(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Beforenm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_beforenmbytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_beforenmbytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Beforenmbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_boxzerobytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_boxzerobytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Boxzerobytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_keypair",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Keypair"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_macbytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_macbytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Macbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_messagebytes_max",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_messagebytes_max()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_noncebytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_noncebytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Noncebytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_open",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Open"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_open_afternm",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_open_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305OpenAfternm"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_publickeybytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_publickeybytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Publickeybytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_secretkeybytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_secretkeybytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Secretkeybytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_seed_keypair",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305SeedKeypair"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_seedbytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_seedbytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Seedbytes"
+  },
+  {
+    "mangle": "crypto_box_curve25519xsalsa20poly1305_zerobytes",
+    "c++": "crypto_box_curve25519xsalsa20poly1305_zerobytes()",
+    "go": "CryptoBoxCurve25519xsalsa20poly1305Zerobytes"
+  },
+  {
+    "mangle": "crypto_box_detached",
+    "c++": "crypto_box_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxDetached"
+  },
+  {
+    "mangle": "crypto_box_detached_afternm",
+    "c++": "crypto_box_detached_afternm(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxDetachedAfternm"
+  },
+  {
+    "mangle": "crypto_box_easy",
+    "c++": "crypto_box_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxEasy"
+  },
+  {
+    "mangle": "crypto_box_easy_afternm",
+    "c++": "crypto_box_easy_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxEasyAfternm"
+  },
+  {
+    "mangle": "crypto_box_keypair",
+    "c++": "crypto_box_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoBoxKeypair"
+  },
+  {
+    "mangle": "crypto_box_macbytes",
+    "c++": "crypto_box_macbytes()",
+    "go": "CryptoBoxMacbytes"
+  },
+  {
+    "mangle": "crypto_box_messagebytes_max",
+    "c++": "crypto_box_messagebytes_max()",
+    "go": "CryptoBoxMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_box_noncebytes",
+    "c++": "crypto_box_noncebytes()",
+    "go": "CryptoBoxNoncebytes"
+  },
+  {
+    "mangle": "crypto_box_open",
+    "c++": "crypto_box_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpen"
+  },
+  {
+    "mangle": "crypto_box_open_afternm",
+    "c++": "crypto_box_open_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpenAfternm"
+  },
+  {
+    "mangle": "crypto_box_open_detached",
+    "c++": "crypto_box_open_detached(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpenDetached"
+  },
+  {
+    "mangle": "crypto_box_open_detached_afternm",
+    "c++": "crypto_box_open_detached_afternm(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpenDetachedAfternm"
+  },
+  {
+    "mangle": "crypto_box_open_easy",
+    "c++": "crypto_box_open_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpenEasy"
+  },
+  {
+    "mangle": "crypto_box_open_easy_afternm",
+    "c++": "crypto_box_open_easy_afternm(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxOpenEasyAfternm"
+  },
+  {
+    "mangle": "crypto_box_primitive",
+    "c++": "crypto_box_primitive()",
+    "go": "CryptoBoxPrimitive"
+  },
+  {
+    "mangle": "crypto_box_publickeybytes",
+    "c++": "crypto_box_publickeybytes()",
+    "go": "CryptoBoxPublickeybytes"
+  },
+  {
+    "mangle": "crypto_box_seal",
+    "c++": "crypto_box_seal(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoBoxSeal"
+  },
+  {
+    "mangle": "crypto_box_seal_open",
+    "c++": "crypto_box_seal_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxSealOpen"
+  },
+  {
+    "mangle": "crypto_box_sealbytes",
+    "c++": "crypto_box_sealbytes()",
+    "go": "CryptoBoxSealbytes"
+  },
+  {
+    "mangle": "crypto_box_secretkeybytes",
+    "c++": "crypto_box_secretkeybytes()",
+    "go": "CryptoBoxSecretkeybytes"
+  },
+  {
+    "mangle": "crypto_box_seed_keypair",
+    "c++": "crypto_box_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoBoxSeedKeypair"
+  },
+  {
+    "mangle": "crypto_box_seedbytes",
+    "c++": "crypto_box_seedbytes()",
+    "go": "CryptoBoxSeedbytes"
+  },
+  {
+    "mangle": "crypto_box_zerobytes",
+    "c++": "crypto_box_zerobytes()",
+    "go": "CryptoBoxZerobytes"
+  },
+  {
+    "mangle": "crypto_core_ed25519_add",
+    "c++": "crypto_core_ed25519_add(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519Add"
+  },
+  {
+    "mangle": "crypto_core_ed25519_bytes",
+    "c++": "crypto_core_ed25519_bytes()",
+    "go": "CryptoCoreEd25519Bytes"
+  },
+  {
+    "mangle": "crypto_core_ed25519_from_hash",
+    "c++": "crypto_core_ed25519_from_hash(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519FromHash"
+  },
+  {
+    "mangle": "crypto_core_ed25519_from_uniform",
+    "c++": "crypto_core_ed25519_from_uniform(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519FromUniform"
+  },
+  {
+    "mangle": "crypto_core_ed25519_hashbytes",
+    "c++": "crypto_core_ed25519_hashbytes()",
+    "go": "CryptoCoreEd25519Hashbytes"
+  },
+  {
+    "mangle": "crypto_core_ed25519_is_valid_point",
+    "c++": "crypto_core_ed25519_is_valid_point(const unsigned char *)",
+    "go": "CryptoCoreEd25519IsValidPoint"
+  },
+  {
+    "mangle": "crypto_core_ed25519_nonreducedscalarbytes",
+    "c++": "crypto_core_ed25519_nonreducedscalarbytes()",
+    "go": "CryptoCoreEd25519Nonreducedscalarbytes"
+  },
+  {
+    "mangle": "crypto_core_ed25519_random",
+    "c++": "crypto_core_ed25519_random(unsigned char *)",
+    "go": "CryptoCoreEd25519Random"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_add",
+    "c++": "crypto_core_ed25519_scalar_add(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarAdd"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_complement",
+    "c++": "crypto_core_ed25519_scalar_complement(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarComplement"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_invert",
+    "c++": "crypto_core_ed25519_scalar_invert(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarInvert"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_mul",
+    "c++": "crypto_core_ed25519_scalar_mul(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarMul"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_negate",
+    "c++": "crypto_core_ed25519_scalar_negate(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarNegate"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_random",
+    "c++": "crypto_core_ed25519_scalar_random(unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarRandom"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_reduce",
+    "c++": "crypto_core_ed25519_scalar_reduce(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarReduce"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalar_sub",
+    "c++": "crypto_core_ed25519_scalar_sub(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519ScalarSub"
+  },
+  {
+    "mangle": "crypto_core_ed25519_scalarbytes",
+    "c++": "crypto_core_ed25519_scalarbytes()",
+    "go": "CryptoCoreEd25519Scalarbytes"
+  },
+  {
+    "mangle": "crypto_core_ed25519_sub",
+    "c++": "crypto_core_ed25519_sub(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreEd25519Sub"
+  },
+  {
+    "mangle": "crypto_core_ed25519_uniformbytes",
+    "c++": "crypto_core_ed25519_uniformbytes()",
+    "go": "CryptoCoreEd25519Uniformbytes"
+  },
+  {
+    "mangle": "crypto_core_hchacha20",
+    "c++": "crypto_core_hchacha20(unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreHchacha20"
+  },
+  {
+    "mangle": "crypto_core_hchacha20_constbytes",
+    "c++": "crypto_core_hchacha20_constbytes()",
+    "go": "CryptoCoreHchacha20Constbytes"
+  },
+  {
+    "mangle": "crypto_core_hchacha20_inputbytes",
+    "c++": "crypto_core_hchacha20_inputbytes()",
+    "go": "CryptoCoreHchacha20Inputbytes"
+  },
+  {
+    "mangle": "crypto_core_hchacha20_keybytes",
+    "c++": "crypto_core_hchacha20_keybytes()",
+    "go": "CryptoCoreHchacha20Keybytes"
+  },
+  {
+    "mangle": "crypto_core_hchacha20_outputbytes",
+    "c++": "crypto_core_hchacha20_outputbytes()",
+    "go": "CryptoCoreHchacha20Outputbytes"
+  },
+  {
+    "mangle": "crypto_core_hsalsa20",
+    "c++": "crypto_core_hsalsa20(unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreHsalsa20"
+  },
+  {
+    "mangle": "crypto_core_hsalsa20_constbytes",
+    "c++": "crypto_core_hsalsa20_constbytes()",
+    "go": "CryptoCoreHsalsa20Constbytes"
+  },
+  {
+    "mangle": "crypto_core_hsalsa20_inputbytes",
+    "c++": "crypto_core_hsalsa20_inputbytes()",
+    "go": "CryptoCoreHsalsa20Inputbytes"
+  },
+  {
+    "mangle": "crypto_core_hsalsa20_keybytes",
+    "c++": "crypto_core_hsalsa20_keybytes()",
+    "go": "CryptoCoreHsalsa20Keybytes"
+  },
+  {
+    "mangle": "crypto_core_hsalsa20_outputbytes",
+    "c++": "crypto_core_hsalsa20_outputbytes()",
+    "go": "CryptoCoreHsalsa20Outputbytes"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_add",
+    "c++": "crypto_core_ristretto255_add(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255Add"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_bytes",
+    "c++": "crypto_core_ristretto255_bytes()",
+    "go": "CryptoCoreRistretto255Bytes"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_from_hash",
+    "c++": "crypto_core_ristretto255_from_hash(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255FromHash"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_hashbytes",
+    "c++": "crypto_core_ristretto255_hashbytes()",
+    "go": "CryptoCoreRistretto255Hashbytes"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_is_valid_point",
+    "c++": "crypto_core_ristretto255_is_valid_point(const unsigned char *)",
+    "go": "CryptoCoreRistretto255IsValidPoint"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_nonreducedscalarbytes",
+    "c++": "crypto_core_ristretto255_nonreducedscalarbytes()",
+    "go": "CryptoCoreRistretto255Nonreducedscalarbytes"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_random",
+    "c++": "crypto_core_ristretto255_random(unsigned char *)",
+    "go": "CryptoCoreRistretto255Random"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_add",
+    "c++": "crypto_core_ristretto255_scalar_add(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarAdd"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_complement",
+    "c++": "crypto_core_ristretto255_scalar_complement(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarComplement"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_invert",
+    "c++": "crypto_core_ristretto255_scalar_invert(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarInvert"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_mul",
+    "c++": "crypto_core_ristretto255_scalar_mul(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarMul"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_negate",
+    "c++": "crypto_core_ristretto255_scalar_negate(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarNegate"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_random",
+    "c++": "crypto_core_ristretto255_scalar_random(unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarRandom"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_reduce",
+    "c++": "crypto_core_ristretto255_scalar_reduce(unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarReduce"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalar_sub",
+    "c++": "crypto_core_ristretto255_scalar_sub(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255ScalarSub"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_scalarbytes",
+    "c++": "crypto_core_ristretto255_scalarbytes()",
+    "go": "CryptoCoreRistretto255Scalarbytes"
+  },
+  {
+    "mangle": "crypto_core_ristretto255_sub",
+    "c++": "crypto_core_ristretto255_sub(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreRistretto255Sub"
+  },
+  {
+    "mangle": "crypto_core_salsa20",
+    "c++": "crypto_core_salsa20(unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreSalsa20"
+  },
+  {
+    "mangle": "crypto_core_salsa2012",
+    "c++": "crypto_core_salsa2012(unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreSalsa2012"
+  },
+  {
+    "mangle": "crypto_core_salsa2012_constbytes",
+    "c++": "crypto_core_salsa2012_constbytes()",
+    "go": "CryptoCoreSalsa2012Constbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa2012_inputbytes",
+    "c++": "crypto_core_salsa2012_inputbytes()",
+    "go": "CryptoCoreSalsa2012Inputbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa2012_keybytes",
+    "c++": "crypto_core_salsa2012_keybytes()",
+    "go": "CryptoCoreSalsa2012Keybytes"
+  },
+  {
+    "mangle": "crypto_core_salsa2012_outputbytes",
+    "c++": "crypto_core_salsa2012_outputbytes()",
+    "go": "CryptoCoreSalsa2012Outputbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa208",
+    "c++": "crypto_core_salsa208(unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoCoreSalsa208"
+  },
+  {
+    "mangle": "crypto_core_salsa208_constbytes",
+    "c++": "crypto_core_salsa208_constbytes()",
+    "go": "CryptoCoreSalsa208Constbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa208_inputbytes",
+    "c++": "crypto_core_salsa208_inputbytes()",
+    "go": "CryptoCoreSalsa208Inputbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa208_keybytes",
+    "c++": "crypto_core_salsa208_keybytes()",
+    "go": "CryptoCoreSalsa208Keybytes"
+  },
+  {
+    "mangle": "crypto_core_salsa208_outputbytes",
+    "c++": "crypto_core_salsa208_outputbytes()",
+    "go": "CryptoCoreSalsa208Outputbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa20_constbytes",
+    "c++": "crypto_core_salsa20_constbytes()",
+    "go": "CryptoCoreSalsa20Constbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa20_inputbytes",
+    "c++": "crypto_core_salsa20_inputbytes()",
+    "go": "CryptoCoreSalsa20Inputbytes"
+  },
+  {
+    "mangle": "crypto_core_salsa20_keybytes",
+    "c++": "crypto_core_salsa20_keybytes()",
+    "go": "CryptoCoreSalsa20Keybytes"
+  },
+  {
+    "mangle": "crypto_core_salsa20_outputbytes",
+    "c++": "crypto_core_salsa20_outputbytes()",
+    "go": "CryptoCoreSalsa20Outputbytes"
+  },
+  {
+    "mangle": "crypto_generichash",
+    "c++": "crypto_generichash(unsigned char *, size_t, const unsigned char *, unsigned long long, const unsigned char *, size_t)",
+    "go": "CryptoGenerichash"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b",
+    "c++": "crypto_generichash_blake2b(unsigned char *, size_t, const unsigned char *, unsigned long long, const unsigned char *, size_t)",
+    "go": "CryptoGenerichashBlake2b"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_bytes",
+    "c++": "crypto_generichash_blake2b_bytes()",
+    "go": "CryptoGenerichashBlake2bBytes"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_bytes_max",
+    "c++": "crypto_generichash_blake2b_bytes_max()",
+    "go": "CryptoGenerichashBlake2bBytesMax"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_bytes_min",
+    "c++": "crypto_generichash_blake2b_bytes_min()",
+    "go": "CryptoGenerichashBlake2bBytesMin"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_final",
+    "c++": "crypto_generichash_blake2b_final(crypto_generichash_blake2b_state *, unsigned char *, const size_t)",
+    "go": "(*CryptoGenerichashBlake2bState).CryptoGenerichashBlake2bFinal"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_init",
+    "c++": "crypto_generichash_blake2b_init(crypto_generichash_blake2b_state *, const unsigned char *, const size_t, const size_t)",
+    "go": "(*CryptoGenerichashBlake2bState).CryptoGenerichashBlake2bInit"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_init_salt_personal",
+    "c++": "crypto_generichash_blake2b_init_salt_personal(crypto_generichash_blake2b_state *, const unsigned char *, const size_t, const size_t, const unsigned char *, const unsigned char *)",
+    "go": "(*CryptoGenerichashBlake2bState).CryptoGenerichashBlake2bInitSaltPersonal"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_keybytes",
+    "c++": "crypto_generichash_blake2b_keybytes()",
+    "go": "CryptoGenerichashBlake2bKeybytes"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_keybytes_max",
+    "c++": "crypto_generichash_blake2b_keybytes_max()",
+    "go": "CryptoGenerichashBlake2bKeybytesMax"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_keybytes_min",
+    "c++": "crypto_generichash_blake2b_keybytes_min()",
+    "go": "CryptoGenerichashBlake2bKeybytesMin"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_keygen",
+    "c++": "crypto_generichash_blake2b_keygen(unsigned char *)",
+    "go": "CryptoGenerichashBlake2bKeygen"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_personalbytes",
+    "c++": "crypto_generichash_blake2b_personalbytes()",
+    "go": "CryptoGenerichashBlake2bPersonalbytes"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_salt_personal",
+    "c++": "crypto_generichash_blake2b_salt_personal(unsigned char *, size_t, const unsigned char *, unsigned long long, const unsigned char *, size_t, const unsigned char *, const unsigned char *)",
+    "go": "CryptoGenerichashBlake2bSaltPersonal"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_saltbytes",
+    "c++": "crypto_generichash_blake2b_saltbytes()",
+    "go": "CryptoGenerichashBlake2bSaltbytes"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_statebytes",
+    "c++": "crypto_generichash_blake2b_statebytes()",
+    "go": "CryptoGenerichashBlake2bStatebytes"
+  },
+  {
+    "mangle": "crypto_generichash_blake2b_update",
+    "c++": "crypto_generichash_blake2b_update(crypto_generichash_blake2b_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoGenerichashBlake2bState).CryptoGenerichashBlake2bUpdate"
+  },
+  {
+    "mangle": "crypto_generichash_bytes",
+    "c++": "crypto_generichash_bytes()",
+    "go": "CryptoGenerichashBytes"
+  },
+  {
+    "mangle": "crypto_generichash_bytes_max",
+    "c++": "crypto_generichash_bytes_max()",
+    "go": "CryptoGenerichashBytesMax"
+  },
+  {
+    "mangle": "crypto_generichash_bytes_min",
+    "c++": "crypto_generichash_bytes_min()",
+    "go": "CryptoGenerichashBytesMin"
+  },
+  {
+    "mangle": "crypto_generichash_final",
+    "c++": "crypto_generichash_final(crypto_generichash_state *, unsigned char *, const size_t)",
+    "go": "(*CryptoGenerichashState).CryptoGenerichashFinal"
+  },
+  {
+    "mangle": "crypto_generichash_init",
+    "c++": "crypto_generichash_init(crypto_generichash_state *, const unsigned char *, const size_t, const size_t)",
+    "go": "(*CryptoGenerichashState).CryptoGenerichashInit"
+  },
+  {
+    "mangle": "crypto_generichash_keybytes",
+    "c++": "crypto_generichash_keybytes()",
+    "go": "CryptoGenerichashKeybytes"
+  },
+  {
+    "mangle": "crypto_generichash_keybytes_max",
+    "c++": "crypto_generichash_keybytes_max()",
+    "go": "CryptoGenerichashKeybytesMax"
+  },
+  {
+    "mangle": "crypto_generichash_keybytes_min",
+    "c++": "crypto_generichash_keybytes_min()",
+    "go": "CryptoGenerichashKeybytesMin"
+  },
+  {
+    "mangle": "crypto_generichash_keygen",
+    "c++": "crypto_generichash_keygen(unsigned char *)",
+    "go": "CryptoGenerichashKeygen"
+  },
+  {
+    "mangle": "crypto_generichash_primitive",
+    "c++": "crypto_generichash_primitive()",
+    "go": "CryptoGenerichashPrimitive"
+  },
+  {
+    "mangle": "crypto_generichash_statebytes",
+    "c++": "crypto_generichash_statebytes()",
+    "go": "CryptoGenerichashStatebytes"
+  },
+  {
+    "mangle": "crypto_generichash_update",
+    "c++": "crypto_generichash_update(crypto_generichash_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoGenerichashState).CryptoGenerichashUpdate"
+  },
+  {
+    "mangle": "crypto_hash",
+    "c++": "crypto_hash(unsigned char *, const unsigned char *, unsigned long long)",
+    "go": "CryptoHash"
+  },
+  {
+    "mangle": "crypto_hash_bytes",
+    "c++": "crypto_hash_bytes()",
+    "go": "CryptoHashBytes"
+  },
+  {
+    "mangle": "crypto_hash_primitive",
+    "c++": "crypto_hash_primitive()",
+    "go": "CryptoHashPrimitive"
+  },
+  {
+    "mangle": "crypto_hash_sha256",
+    "c++": "crypto_hash_sha256(unsigned char *, const unsigned char *, unsigned long long)",
+    "go": "CryptoHashSha256"
+  },
+  {
+    "mangle": "crypto_hash_sha256_bytes",
+    "c++": "crypto_hash_sha256_bytes()",
+    "go": "CryptoHashSha256Bytes"
+  },
+  {
+    "mangle": "crypto_hash_sha256_final",
+    "c++": "crypto_hash_sha256_final(crypto_hash_sha256_state *, unsigned char *)",
+    "go": "(*CryptoHashSha256State).CryptoHashSha256Final"
+  },
+  {
+    "mangle": "crypto_hash_sha256_init",
+    "c++": "crypto_hash_sha256_init(crypto_hash_sha256_state *)",
+    "go": "(*CryptoHashSha256State).CryptoHashSha256Init"
+  },
+  {
+    "mangle": "crypto_hash_sha256_statebytes",
+    "c++": "crypto_hash_sha256_statebytes()",
+    "go": "CryptoHashSha256Statebytes"
+  },
+  {
+    "mangle": "crypto_hash_sha256_update",
+    "c++": "crypto_hash_sha256_update(crypto_hash_sha256_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoHashSha256State).CryptoHashSha256Update"
+  },
+  {
+    "mangle": "crypto_hash_sha512",
+    "c++": "crypto_hash_sha512(unsigned char *, const unsigned char *, unsigned long long)",
+    "go": "CryptoHashSha512"
+  },
+  {
+    "mangle": "crypto_hash_sha512_bytes",
+    "c++": "crypto_hash_sha512_bytes()",
+    "go": "CryptoHashSha512Bytes"
+  },
+  {
+    "mangle": "crypto_hash_sha512_final",
+    "c++": "crypto_hash_sha512_final(crypto_hash_sha512_state *, unsigned char *)",
+    "go": "(*CryptoHashSha512State).CryptoHashSha512Final"
+  },
+  {
+    "mangle": "crypto_hash_sha512_init",
+    "c++": "crypto_hash_sha512_init(crypto_hash_sha512_state *)",
+    "go": "(*CryptoHashSha512State).CryptoHashSha512Init"
+  },
+  {
+    "mangle": "crypto_hash_sha512_statebytes",
+    "c++": "crypto_hash_sha512_statebytes()",
+    "go": "CryptoHashSha512Statebytes"
+  },
+  {
+    "mangle": "crypto_hash_sha512_update",
+    "c++": "crypto_hash_sha512_update(crypto_hash_sha512_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoHashSha512State).CryptoHashSha512Update"
+  },
+  {
+    "mangle": "crypto_kdf_blake2b_bytes_max",
+    "c++": "crypto_kdf_blake2b_bytes_max()",
+    "go": "CryptoKdfBlake2bBytesMax"
+  },
+  {
+    "mangle": "crypto_kdf_blake2b_bytes_min",
+    "c++": "crypto_kdf_blake2b_bytes_min()",
+    "go": "CryptoKdfBlake2bBytesMin"
+  },
+  {
+    "mangle": "crypto_kdf_blake2b_contextbytes",
+    "c++": "crypto_kdf_blake2b_contextbytes()",
+    "go": "CryptoKdfBlake2bContextbytes"
+  },
+  {
+    "mangle": "crypto_kdf_blake2b_derive_from_key",
+    "c++": "crypto_kdf_blake2b_derive_from_key(unsigned char *, size_t, uint64_t, const char *, const unsigned char *)",
+    "go": "CryptoKdfBlake2bDeriveFromKey"
+  },
+  {
+    "mangle": "crypto_kdf_blake2b_keybytes",
+    "c++": "crypto_kdf_blake2b_keybytes()",
+    "go": "CryptoKdfBlake2bKeybytes"
+  },
+  {
+    "mangle": "crypto_kdf_bytes_max",
+    "c++": "crypto_kdf_bytes_max()",
+    "go": "CryptoKdfBytesMax"
+  },
+  {
+    "mangle": "crypto_kdf_bytes_min",
+    "c++": "crypto_kdf_bytes_min()",
+    "go": "CryptoKdfBytesMin"
+  },
+  {
+    "mangle": "crypto_kdf_contextbytes",
+    "c++": "crypto_kdf_contextbytes()",
+    "go": "CryptoKdfContextbytes"
+  },
+  {
+    "mangle": "crypto_kdf_derive_from_key",
+    "c++": "crypto_kdf_derive_from_key(unsigned char *, size_t, uint64_t, const char *, const unsigned char *)",
+    "go": "CryptoKdfDeriveFromKey"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_bytes_max",
+    "c++": "crypto_kdf_hkdf_sha256_bytes_max()",
+    "go": "CryptoKdfHkdfSha256BytesMax"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_bytes_min",
+    "c++": "crypto_kdf_hkdf_sha256_bytes_min()",
+    "go": "CryptoKdfHkdfSha256BytesMin"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_expand",
+    "c++": "crypto_kdf_hkdf_sha256_expand(unsigned char *, size_t, const char *, size_t, const unsigned char *)",
+    "go": "CryptoKdfHkdfSha256Expand"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_extract",
+    "c++": "crypto_kdf_hkdf_sha256_extract(unsigned char *, const unsigned char *, size_t, const unsigned char *, size_t)",
+    "go": "CryptoKdfHkdfSha256Extract"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_extract_final",
+    "c++": "crypto_kdf_hkdf_sha256_extract_final(crypto_kdf_hkdf_sha256_state *, unsigned char *)",
+    "go": "(*CryptoKdfHkdfSha256State).CryptoKdfHkdfSha256ExtractFinal"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_extract_init",
+    "c++": "crypto_kdf_hkdf_sha256_extract_init(crypto_kdf_hkdf_sha256_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoKdfHkdfSha256State).CryptoKdfHkdfSha256ExtractInit"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_extract_update",
+    "c++": "crypto_kdf_hkdf_sha256_extract_update(crypto_kdf_hkdf_sha256_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoKdfHkdfSha256State).CryptoKdfHkdfSha256ExtractUpdate"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_keybytes",
+    "c++": "crypto_kdf_hkdf_sha256_keybytes()",
+    "go": "CryptoKdfHkdfSha256Keybytes"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_keygen",
+    "c++": "crypto_kdf_hkdf_sha256_keygen(unsigned char *)",
+    "go": "CryptoKdfHkdfSha256Keygen"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha256_statebytes",
+    "c++": "crypto_kdf_hkdf_sha256_statebytes()",
+    "go": "CryptoKdfHkdfSha256Statebytes"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_bytes_max",
+    "c++": "crypto_kdf_hkdf_sha512_bytes_max()",
+    "go": "CryptoKdfHkdfSha512BytesMax"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_bytes_min",
+    "c++": "crypto_kdf_hkdf_sha512_bytes_min()",
+    "go": "CryptoKdfHkdfSha512BytesMin"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_expand",
+    "c++": "crypto_kdf_hkdf_sha512_expand(unsigned char *, size_t, const char *, size_t, const unsigned char *)",
+    "go": "CryptoKdfHkdfSha512Expand"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_extract",
+    "c++": "crypto_kdf_hkdf_sha512_extract(unsigned char *, const unsigned char *, size_t, const unsigned char *, size_t)",
+    "go": "CryptoKdfHkdfSha512Extract"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_extract_final",
+    "c++": "crypto_kdf_hkdf_sha512_extract_final(crypto_kdf_hkdf_sha512_state *, unsigned char *)",
+    "go": "(*CryptoKdfHkdfSha512State).CryptoKdfHkdfSha512ExtractFinal"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_extract_init",
+    "c++": "crypto_kdf_hkdf_sha512_extract_init(crypto_kdf_hkdf_sha512_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoKdfHkdfSha512State).CryptoKdfHkdfSha512ExtractInit"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_extract_update",
+    "c++": "crypto_kdf_hkdf_sha512_extract_update(crypto_kdf_hkdf_sha512_state *, const unsigned char *, size_t)",
+    "go": "(*CryptoKdfHkdfSha512State).CryptoKdfHkdfSha512ExtractUpdate"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_keybytes",
+    "c++": "crypto_kdf_hkdf_sha512_keybytes()",
+    "go": "CryptoKdfHkdfSha512Keybytes"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_keygen",
+    "c++": "crypto_kdf_hkdf_sha512_keygen(unsigned char *)",
+    "go": "CryptoKdfHkdfSha512Keygen"
+  },
+  {
+    "mangle": "crypto_kdf_hkdf_sha512_statebytes",
+    "c++": "crypto_kdf_hkdf_sha512_statebytes()",
+    "go": "CryptoKdfHkdfSha512Statebytes"
+  },
+  {
+    "mangle": "crypto_kdf_keybytes",
+    "c++": "crypto_kdf_keybytes()",
+    "go": "CryptoKdfKeybytes"
+  },
+  {
+    "mangle": "crypto_kdf_keygen",
+    "c++": "crypto_kdf_keygen(unsigned char *)",
+    "go": "CryptoKdfKeygen"
+  },
+  {
+    "mangle": "crypto_kdf_primitive",
+    "c++": "crypto_kdf_primitive()",
+    "go": "CryptoKdfPrimitive"
+  },
+  {
+    "mangle": "crypto_kx_client_session_keys",
+    "c++": "crypto_kx_client_session_keys(unsigned char *, unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoKxClientSessionKeys"
+  },
+  {
+    "mangle": "crypto_kx_keypair",
+    "c++": "crypto_kx_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoKxKeypair"
+  },
+  {
+    "mangle": "crypto_kx_primitive",
+    "c++": "crypto_kx_primitive()",
+    "go": "CryptoKxPrimitive"
+  },
+  {
+    "mangle": "crypto_kx_publickeybytes",
+    "c++": "crypto_kx_publickeybytes()",
+    "go": "CryptoKxPublickeybytes"
+  },
+  {
+    "mangle": "crypto_kx_secretkeybytes",
+    "c++": "crypto_kx_secretkeybytes()",
+    "go": "CryptoKxSecretkeybytes"
+  },
+  {
+    "mangle": "crypto_kx_seed_keypair",
+    "c++": "crypto_kx_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoKxSeedKeypair"
+  },
+  {
+    "mangle": "crypto_kx_seedbytes",
+    "c++": "crypto_kx_seedbytes()",
+    "go": "CryptoKxSeedbytes"
+  },
+  {
+    "mangle": "crypto_kx_server_session_keys",
+    "c++": "crypto_kx_server_session_keys(unsigned char *, unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoKxServerSessionKeys"
+  },
+  {
+    "mangle": "crypto_kx_sessionkeybytes",
+    "c++": "crypto_kx_sessionkeybytes()",
+    "go": "CryptoKxSessionkeybytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth",
+    "c++": "crypto_onetimeauth(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoOnetimeauth"
+  },
+  {
+    "mangle": "crypto_onetimeauth_bytes",
+    "c++": "crypto_onetimeauth_bytes()",
+    "go": "CryptoOnetimeauthBytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_final",
+    "c++": "crypto_onetimeauth_final(crypto_onetimeauth_state *, unsigned char *)",
+    "go": "(*CryptoOnetimeauthState).CryptoOnetimeauthFinal"
+  },
+  {
+    "mangle": "crypto_onetimeauth_init",
+    "c++": "crypto_onetimeauth_init(crypto_onetimeauth_state *, const unsigned char *)",
+    "go": "(*CryptoOnetimeauthState).CryptoOnetimeauthInit"
+  },
+  {
+    "mangle": "crypto_onetimeauth_keybytes",
+    "c++": "crypto_onetimeauth_keybytes()",
+    "go": "CryptoOnetimeauthKeybytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_keygen",
+    "c++": "crypto_onetimeauth_keygen(unsigned char *)",
+    "go": "CryptoOnetimeauthKeygen"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305",
+    "c++": "crypto_onetimeauth_poly1305(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoOnetimeauthPoly1305"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_bytes",
+    "c++": "crypto_onetimeauth_poly1305_bytes()",
+    "go": "CryptoOnetimeauthPoly1305Bytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_final",
+    "c++": "crypto_onetimeauth_poly1305_final(crypto_onetimeauth_poly1305_state *, unsigned char *)",
+    "go": "(*CryptoOnetimeauthPoly1305State).CryptoOnetimeauthPoly1305Final"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_init",
+    "c++": "crypto_onetimeauth_poly1305_init(crypto_onetimeauth_poly1305_state *, const unsigned char *)",
+    "go": "(*CryptoOnetimeauthPoly1305State).CryptoOnetimeauthPoly1305Init"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_keybytes",
+    "c++": "crypto_onetimeauth_poly1305_keybytes()",
+    "go": "CryptoOnetimeauthPoly1305Keybytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_keygen",
+    "c++": "crypto_onetimeauth_poly1305_keygen(unsigned char *)",
+    "go": "CryptoOnetimeauthPoly1305Keygen"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_statebytes",
+    "c++": "crypto_onetimeauth_poly1305_statebytes()",
+    "go": "CryptoOnetimeauthPoly1305Statebytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_update",
+    "c++": "crypto_onetimeauth_poly1305_update(crypto_onetimeauth_poly1305_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoOnetimeauthPoly1305State).CryptoOnetimeauthPoly1305Update"
+  },
+  {
+    "mangle": "crypto_onetimeauth_poly1305_verify",
+    "c++": "crypto_onetimeauth_poly1305_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoOnetimeauthPoly1305Verify"
+  },
+  {
+    "mangle": "crypto_onetimeauth_primitive",
+    "c++": "crypto_onetimeauth_primitive()",
+    "go": "CryptoOnetimeauthPrimitive"
+  },
+  {
+    "mangle": "crypto_onetimeauth_statebytes",
+    "c++": "crypto_onetimeauth_statebytes()",
+    "go": "CryptoOnetimeauthStatebytes"
+  },
+  {
+    "mangle": "crypto_onetimeauth_update",
+    "c++": "crypto_onetimeauth_update(crypto_onetimeauth_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoOnetimeauthState).CryptoOnetimeauthUpdate"
+  },
+  {
+    "mangle": "crypto_onetimeauth_verify",
+    "c++": "crypto_onetimeauth_verify(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoOnetimeauthVerify"
+  },
+  {
+    "mangle": "crypto_pwhash",
+    "c++": "crypto_pwhash(unsigned char *const, unsigned long long, const char *const, unsigned long long, const unsigned char *const, unsigned long long, size_t, int)",
+    "go": "CryptoPwhash"
+  },
+  {
+    "mangle": "crypto_pwhash_alg_argon2i13",
+    "c++": "crypto_pwhash_alg_argon2i13()",
+    "go": "CryptoPwhashAlgArgon2i13"
+  },
+  {
+    "mangle": "crypto_pwhash_alg_argon2id13",
+    "c++": "crypto_pwhash_alg_argon2id13()",
+    "go": "CryptoPwhashAlgArgon2id13"
+  },
+  {
+    "mangle": "crypto_pwhash_alg_default",
+    "c++": "crypto_pwhash_alg_default()",
+    "go": "CryptoPwhashAlgDefault"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i",
+    "c++": "crypto_pwhash_argon2i(unsigned char *const, unsigned long long, const char *const, unsigned long long, const unsigned char *const, unsigned long long, size_t, int)",
+    "go": "CryptoPwhashArgon2i"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_alg_argon2i13",
+    "c++": "crypto_pwhash_argon2i_alg_argon2i13()",
+    "go": "CryptoPwhashArgon2iAlgArgon2i13"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_bytes_max",
+    "c++": "crypto_pwhash_argon2i_bytes_max()",
+    "go": "CryptoPwhashArgon2iBytesMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_bytes_min",
+    "c++": "crypto_pwhash_argon2i_bytes_min()",
+    "go": "CryptoPwhashArgon2iBytesMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_memlimit_interactive",
+    "c++": "crypto_pwhash_argon2i_memlimit_interactive()",
+    "go": "CryptoPwhashArgon2iMemlimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_memlimit_max",
+    "c++": "crypto_pwhash_argon2i_memlimit_max()",
+    "go": "CryptoPwhashArgon2iMemlimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_memlimit_min",
+    "c++": "crypto_pwhash_argon2i_memlimit_min()",
+    "go": "CryptoPwhashArgon2iMemlimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_memlimit_moderate",
+    "c++": "crypto_pwhash_argon2i_memlimit_moderate()",
+    "go": "CryptoPwhashArgon2iMemlimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_memlimit_sensitive",
+    "c++": "crypto_pwhash_argon2i_memlimit_sensitive()",
+    "go": "CryptoPwhashArgon2iMemlimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_opslimit_interactive",
+    "c++": "crypto_pwhash_argon2i_opslimit_interactive()",
+    "go": "CryptoPwhashArgon2iOpslimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_opslimit_max",
+    "c++": "crypto_pwhash_argon2i_opslimit_max()",
+    "go": "CryptoPwhashArgon2iOpslimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_opslimit_min",
+    "c++": "crypto_pwhash_argon2i_opslimit_min()",
+    "go": "CryptoPwhashArgon2iOpslimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_opslimit_moderate",
+    "c++": "crypto_pwhash_argon2i_opslimit_moderate()",
+    "go": "CryptoPwhashArgon2iOpslimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_opslimit_sensitive",
+    "c++": "crypto_pwhash_argon2i_opslimit_sensitive()",
+    "go": "CryptoPwhashArgon2iOpslimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_passwd_max",
+    "c++": "crypto_pwhash_argon2i_passwd_max()",
+    "go": "CryptoPwhashArgon2iPasswdMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_passwd_min",
+    "c++": "crypto_pwhash_argon2i_passwd_min()",
+    "go": "CryptoPwhashArgon2iPasswdMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_saltbytes",
+    "c++": "crypto_pwhash_argon2i_saltbytes()",
+    "go": "CryptoPwhashArgon2iSaltbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_str",
+    "c++": "crypto_pwhash_argon2i_str(char *, const char *const, unsigned long long, unsigned long long, size_t)",
+    "go": "CryptoPwhashArgon2iStr"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_str_needs_rehash",
+    "c++": "crypto_pwhash_argon2i_str_needs_rehash(const char *, unsigned long long, size_t)",
+    "go": "CryptoPwhashArgon2iStrNeedsRehash"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_str_verify",
+    "c++": "crypto_pwhash_argon2i_str_verify(const char *, const char *const, unsigned long long)",
+    "go": "CryptoPwhashArgon2iStrVerify"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_strbytes",
+    "c++": "crypto_pwhash_argon2i_strbytes()",
+    "go": "CryptoPwhashArgon2iStrbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2i_strprefix",
+    "c++": "crypto_pwhash_argon2i_strprefix()",
+    "go": "CryptoPwhashArgon2iStrprefix"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id",
+    "c++": "crypto_pwhash_argon2id(unsigned char *const, unsigned long long, const char *const, unsigned long long, const unsigned char *const, unsigned long long, size_t, int)",
+    "go": "CryptoPwhashArgon2id"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_alg_argon2id13",
+    "c++": "crypto_pwhash_argon2id_alg_argon2id13()",
+    "go": "CryptoPwhashArgon2idAlgArgon2id13"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_bytes_max",
+    "c++": "crypto_pwhash_argon2id_bytes_max()",
+    "go": "CryptoPwhashArgon2idBytesMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_bytes_min",
+    "c++": "crypto_pwhash_argon2id_bytes_min()",
+    "go": "CryptoPwhashArgon2idBytesMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_memlimit_interactive",
+    "c++": "crypto_pwhash_argon2id_memlimit_interactive()",
+    "go": "CryptoPwhashArgon2idMemlimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_memlimit_max",
+    "c++": "crypto_pwhash_argon2id_memlimit_max()",
+    "go": "CryptoPwhashArgon2idMemlimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_memlimit_min",
+    "c++": "crypto_pwhash_argon2id_memlimit_min()",
+    "go": "CryptoPwhashArgon2idMemlimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_memlimit_moderate",
+    "c++": "crypto_pwhash_argon2id_memlimit_moderate()",
+    "go": "CryptoPwhashArgon2idMemlimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_memlimit_sensitive",
+    "c++": "crypto_pwhash_argon2id_memlimit_sensitive()",
+    "go": "CryptoPwhashArgon2idMemlimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_opslimit_interactive",
+    "c++": "crypto_pwhash_argon2id_opslimit_interactive()",
+    "go": "CryptoPwhashArgon2idOpslimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_opslimit_max",
+    "c++": "crypto_pwhash_argon2id_opslimit_max()",
+    "go": "CryptoPwhashArgon2idOpslimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_opslimit_min",
+    "c++": "crypto_pwhash_argon2id_opslimit_min()",
+    "go": "CryptoPwhashArgon2idOpslimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_opslimit_moderate",
+    "c++": "crypto_pwhash_argon2id_opslimit_moderate()",
+    "go": "CryptoPwhashArgon2idOpslimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_opslimit_sensitive",
+    "c++": "crypto_pwhash_argon2id_opslimit_sensitive()",
+    "go": "CryptoPwhashArgon2idOpslimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_passwd_max",
+    "c++": "crypto_pwhash_argon2id_passwd_max()",
+    "go": "CryptoPwhashArgon2idPasswdMax"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_passwd_min",
+    "c++": "crypto_pwhash_argon2id_passwd_min()",
+    "go": "CryptoPwhashArgon2idPasswdMin"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_saltbytes",
+    "c++": "crypto_pwhash_argon2id_saltbytes()",
+    "go": "CryptoPwhashArgon2idSaltbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_str",
+    "c++": "crypto_pwhash_argon2id_str(char *, const char *const, unsigned long long, unsigned long long, size_t)",
+    "go": "CryptoPwhashArgon2idStr"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_str_needs_rehash",
+    "c++": "crypto_pwhash_argon2id_str_needs_rehash(const char *, unsigned long long, size_t)",
+    "go": "CryptoPwhashArgon2idStrNeedsRehash"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_str_verify",
+    "c++": "crypto_pwhash_argon2id_str_verify(const char *, const char *const, unsigned long long)",
+    "go": "CryptoPwhashArgon2idStrVerify"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_strbytes",
+    "c++": "crypto_pwhash_argon2id_strbytes()",
+    "go": "CryptoPwhashArgon2idStrbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_argon2id_strprefix",
+    "c++": "crypto_pwhash_argon2id_strprefix()",
+    "go": "CryptoPwhashArgon2idStrprefix"
+  },
+  {
+    "mangle": "crypto_pwhash_bytes_max",
+    "c++": "crypto_pwhash_bytes_max()",
+    "go": "CryptoPwhashBytesMax"
+  },
+  {
+    "mangle": "crypto_pwhash_bytes_min",
+    "c++": "crypto_pwhash_bytes_min()",
+    "go": "CryptoPwhashBytesMin"
+  },
+  {
+    "mangle": "crypto_pwhash_memlimit_interactive",
+    "c++": "crypto_pwhash_memlimit_interactive()",
+    "go": "CryptoPwhashMemlimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_memlimit_max",
+    "c++": "crypto_pwhash_memlimit_max()",
+    "go": "CryptoPwhashMemlimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_memlimit_min",
+    "c++": "crypto_pwhash_memlimit_min()",
+    "go": "CryptoPwhashMemlimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_memlimit_moderate",
+    "c++": "crypto_pwhash_memlimit_moderate()",
+    "go": "CryptoPwhashMemlimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_memlimit_sensitive",
+    "c++": "crypto_pwhash_memlimit_sensitive()",
+    "go": "CryptoPwhashMemlimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_opslimit_interactive",
+    "c++": "crypto_pwhash_opslimit_interactive()",
+    "go": "CryptoPwhashOpslimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_opslimit_max",
+    "c++": "crypto_pwhash_opslimit_max()",
+    "go": "CryptoPwhashOpslimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_opslimit_min",
+    "c++": "crypto_pwhash_opslimit_min()",
+    "go": "CryptoPwhashOpslimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_opslimit_moderate",
+    "c++": "crypto_pwhash_opslimit_moderate()",
+    "go": "CryptoPwhashOpslimitModerate"
+  },
+  {
+    "mangle": "crypto_pwhash_opslimit_sensitive",
+    "c++": "crypto_pwhash_opslimit_sensitive()",
+    "go": "CryptoPwhashOpslimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_passwd_max",
+    "c++": "crypto_pwhash_passwd_max()",
+    "go": "CryptoPwhashPasswdMax"
+  },
+  {
+    "mangle": "crypto_pwhash_passwd_min",
+    "c++": "crypto_pwhash_passwd_min()",
+    "go": "CryptoPwhashPasswdMin"
+  },
+  {
+    "mangle": "crypto_pwhash_primitive",
+    "c++": "crypto_pwhash_primitive()",
+    "go": "CryptoPwhashPrimitive"
+  },
+  {
+    "mangle": "crypto_pwhash_saltbytes",
+    "c++": "crypto_pwhash_saltbytes()",
+    "go": "CryptoPwhashSaltbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256",
+    "c++": "crypto_pwhash_scryptsalsa208sha256(unsigned char *const, unsigned long long, const char *const, unsigned long long, const unsigned char *const, unsigned long long, size_t)",
+    "go": "CryptoPwhashScryptsalsa208sha256"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_bytes_max",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_bytes_max()",
+    "go": "CryptoPwhashScryptsalsa208sha256BytesMax"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_bytes_min",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_bytes_min()",
+    "go": "CryptoPwhashScryptsalsa208sha256BytesMin"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_ll",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_ll(const uint8_t *, size_t, const uint8_t *, size_t, uint64_t, uint32_t, uint32_t, uint8_t *, size_t)",
+    "go": "CryptoPwhashScryptsalsa208sha256Ll"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_memlimit_interactive",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_memlimit_interactive()",
+    "go": "CryptoPwhashScryptsalsa208sha256MemlimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_memlimit_max",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_memlimit_max()",
+    "go": "CryptoPwhashScryptsalsa208sha256MemlimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_memlimit_min",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_memlimit_min()",
+    "go": "CryptoPwhashScryptsalsa208sha256MemlimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_memlimit_sensitive",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_memlimit_sensitive()",
+    "go": "CryptoPwhashScryptsalsa208sha256MemlimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_opslimit_interactive",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_opslimit_interactive()",
+    "go": "CryptoPwhashScryptsalsa208sha256OpslimitInteractive"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_opslimit_max",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_opslimit_max()",
+    "go": "CryptoPwhashScryptsalsa208sha256OpslimitMax"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_opslimit_min",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_opslimit_min()",
+    "go": "CryptoPwhashScryptsalsa208sha256OpslimitMin"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_opslimit_sensitive",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_opslimit_sensitive()",
+    "go": "CryptoPwhashScryptsalsa208sha256OpslimitSensitive"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_passwd_max",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_passwd_max()",
+    "go": "CryptoPwhashScryptsalsa208sha256PasswdMax"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_passwd_min",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_passwd_min()",
+    "go": "CryptoPwhashScryptsalsa208sha256PasswdMin"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_saltbytes",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_saltbytes()",
+    "go": "CryptoPwhashScryptsalsa208sha256Saltbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_str",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_str(char *, const char *const, unsigned long long, unsigned long long, size_t)",
+    "go": "CryptoPwhashScryptsalsa208sha256Str"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_str_needs_rehash",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_str_needs_rehash(const char *, unsigned long long, size_t)",
+    "go": "CryptoPwhashScryptsalsa208sha256StrNeedsRehash"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_str_verify",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_str_verify(const char *, const char *const, unsigned long long)",
+    "go": "CryptoPwhashScryptsalsa208sha256StrVerify"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_strbytes",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_strbytes()",
+    "go": "CryptoPwhashScryptsalsa208sha256Strbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_scryptsalsa208sha256_strprefix",
+    "c++": "crypto_pwhash_scryptsalsa208sha256_strprefix()",
+    "go": "CryptoPwhashScryptsalsa208sha256Strprefix"
+  },
+  {
+    "mangle": "crypto_pwhash_str",
+    "c++": "crypto_pwhash_str(char *, const char *const, unsigned long long, unsigned long long, size_t)",
+    "go": "CryptoPwhashStr"
+  },
+  {
+    "mangle": "crypto_pwhash_str_alg",
+    "c++": "crypto_pwhash_str_alg(char *, const char *const, unsigned long long, unsigned long long, size_t, int)",
+    "go": "CryptoPwhashStrAlg"
+  },
+  {
+    "mangle": "crypto_pwhash_str_needs_rehash",
+    "c++": "crypto_pwhash_str_needs_rehash(const char *, unsigned long long, size_t)",
+    "go": "CryptoPwhashStrNeedsRehash"
+  },
+  {
+    "mangle": "crypto_pwhash_str_verify",
+    "c++": "crypto_pwhash_str_verify(const char *, const char *const, unsigned long long)",
+    "go": "CryptoPwhashStrVerify"
+  },
+  {
+    "mangle": "crypto_pwhash_strbytes",
+    "c++": "crypto_pwhash_strbytes()",
+    "go": "CryptoPwhashStrbytes"
+  },
+  {
+    "mangle": "crypto_pwhash_strprefix",
+    "c++": "crypto_pwhash_strprefix()",
+    "go": "CryptoPwhashStrprefix"
+  },
+  {
+    "mangle": "crypto_scalarmult",
+    "c++": "crypto_scalarmult(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmult"
+  },
+  {
+    "mangle": "crypto_scalarmult_base",
+    "c++": "crypto_scalarmult_base(unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultBase"
+  },
+  {
+    "mangle": "crypto_scalarmult_bytes",
+    "c++": "crypto_scalarmult_bytes()",
+    "go": "CryptoScalarmultBytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_curve25519",
+    "c++": "crypto_scalarmult_curve25519(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultCurve25519"
+  },
+  {
+    "mangle": "crypto_scalarmult_curve25519_base",
+    "c++": "crypto_scalarmult_curve25519_base(unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultCurve25519Base"
+  },
+  {
+    "mangle": "crypto_scalarmult_curve25519_bytes",
+    "c++": "crypto_scalarmult_curve25519_bytes()",
+    "go": "CryptoScalarmultCurve25519Bytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_curve25519_scalarbytes",
+    "c++": "crypto_scalarmult_curve25519_scalarbytes()",
+    "go": "CryptoScalarmultCurve25519Scalarbytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519",
+    "c++": "crypto_scalarmult_ed25519(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultEd25519"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519_base",
+    "c++": "crypto_scalarmult_ed25519_base(unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultEd25519Base"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519_base_noclamp",
+    "c++": "crypto_scalarmult_ed25519_base_noclamp(unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultEd25519BaseNoclamp"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519_bytes",
+    "c++": "crypto_scalarmult_ed25519_bytes()",
+    "go": "CryptoScalarmultEd25519Bytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519_noclamp",
+    "c++": "crypto_scalarmult_ed25519_noclamp(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultEd25519Noclamp"
+  },
+  {
+    "mangle": "crypto_scalarmult_ed25519_scalarbytes",
+    "c++": "crypto_scalarmult_ed25519_scalarbytes()",
+    "go": "CryptoScalarmultEd25519Scalarbytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_primitive",
+    "c++": "crypto_scalarmult_primitive()",
+    "go": "CryptoScalarmultPrimitive"
+  },
+  {
+    "mangle": "crypto_scalarmult_ristretto255",
+    "c++": "crypto_scalarmult_ristretto255(unsigned char *, const unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultRistretto255"
+  },
+  {
+    "mangle": "crypto_scalarmult_ristretto255_base",
+    "c++": "crypto_scalarmult_ristretto255_base(unsigned char *, const unsigned char *)",
+    "go": "CryptoScalarmultRistretto255Base"
+  },
+  {
+    "mangle": "crypto_scalarmult_ristretto255_bytes",
+    "c++": "crypto_scalarmult_ristretto255_bytes()",
+    "go": "CryptoScalarmultRistretto255Bytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_ristretto255_scalarbytes",
+    "c++": "crypto_scalarmult_ristretto255_scalarbytes()",
+    "go": "CryptoScalarmultRistretto255Scalarbytes"
+  },
+  {
+    "mangle": "crypto_scalarmult_scalarbytes",
+    "c++": "crypto_scalarmult_scalarbytes()",
+    "go": "CryptoScalarmultScalarbytes"
+  },
+  {
+    "mangle": "crypto_secretbox",
+    "c++": "crypto_secretbox(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretbox"
+  },
+  {
+    "mangle": "crypto_secretbox_boxzerobytes",
+    "c++": "crypto_secretbox_boxzerobytes()",
+    "go": "CryptoSecretboxBoxzerobytes"
+  },
+  {
+    "mangle": "crypto_secretbox_detached",
+    "c++": "crypto_secretbox_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxDetached"
+  },
+  {
+    "mangle": "crypto_secretbox_easy",
+    "c++": "crypto_secretbox_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxEasy"
+  },
+  {
+    "mangle": "crypto_secretbox_keybytes",
+    "c++": "crypto_secretbox_keybytes()",
+    "go": "CryptoSecretboxKeybytes"
+  },
+  {
+    "mangle": "crypto_secretbox_keygen",
+    "c++": "crypto_secretbox_keygen(unsigned char *)",
+    "go": "CryptoSecretboxKeygen"
+  },
+  {
+    "mangle": "crypto_secretbox_macbytes",
+    "c++": "crypto_secretbox_macbytes()",
+    "go": "CryptoSecretboxMacbytes"
+  },
+  {
+    "mangle": "crypto_secretbox_messagebytes_max",
+    "c++": "crypto_secretbox_messagebytes_max()",
+    "go": "CryptoSecretboxMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_secretbox_noncebytes",
+    "c++": "crypto_secretbox_noncebytes()",
+    "go": "CryptoSecretboxNoncebytes"
+  },
+  {
+    "mangle": "crypto_secretbox_open",
+    "c++": "crypto_secretbox_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxOpen"
+  },
+  {
+    "mangle": "crypto_secretbox_open_detached",
+    "c++": "crypto_secretbox_open_detached(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxOpenDetached"
+  },
+  {
+    "mangle": "crypto_secretbox_open_easy",
+    "c++": "crypto_secretbox_open_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxOpenEasy"
+  },
+  {
+    "mangle": "crypto_secretbox_primitive",
+    "c++": "crypto_secretbox_primitive()",
+    "go": "CryptoSecretboxPrimitive"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_detached",
+    "c++": "crypto_secretbox_xchacha20poly1305_detached(unsigned char *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXchacha20poly1305Detached"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_easy",
+    "c++": "crypto_secretbox_xchacha20poly1305_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXchacha20poly1305Easy"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_keybytes",
+    "c++": "crypto_secretbox_xchacha20poly1305_keybytes()",
+    "go": "CryptoSecretboxXchacha20poly1305Keybytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_macbytes",
+    "c++": "crypto_secretbox_xchacha20poly1305_macbytes()",
+    "go": "CryptoSecretboxXchacha20poly1305Macbytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_messagebytes_max",
+    "c++": "crypto_secretbox_xchacha20poly1305_messagebytes_max()",
+    "go": "CryptoSecretboxXchacha20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_noncebytes",
+    "c++": "crypto_secretbox_xchacha20poly1305_noncebytes()",
+    "go": "CryptoSecretboxXchacha20poly1305Noncebytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_open_detached",
+    "c++": "crypto_secretbox_xchacha20poly1305_open_detached(unsigned char *, const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXchacha20poly1305OpenDetached"
+  },
+  {
+    "mangle": "crypto_secretbox_xchacha20poly1305_open_easy",
+    "c++": "crypto_secretbox_xchacha20poly1305_open_easy(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXchacha20poly1305OpenEasy"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305",
+    "c++": "crypto_secretbox_xsalsa20poly1305(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXsalsa20poly1305"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_boxzerobytes",
+    "c++": "crypto_secretbox_xsalsa20poly1305_boxzerobytes()",
+    "go": "CryptoSecretboxXsalsa20poly1305Boxzerobytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_keybytes",
+    "c++": "crypto_secretbox_xsalsa20poly1305_keybytes()",
+    "go": "CryptoSecretboxXsalsa20poly1305Keybytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_keygen",
+    "c++": "crypto_secretbox_xsalsa20poly1305_keygen(unsigned char *)",
+    "go": "CryptoSecretboxXsalsa20poly1305Keygen"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_macbytes",
+    "c++": "crypto_secretbox_xsalsa20poly1305_macbytes()",
+    "go": "CryptoSecretboxXsalsa20poly1305Macbytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_messagebytes_max",
+    "c++": "crypto_secretbox_xsalsa20poly1305_messagebytes_max()",
+    "go": "CryptoSecretboxXsalsa20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_noncebytes",
+    "c++": "crypto_secretbox_xsalsa20poly1305_noncebytes()",
+    "go": "CryptoSecretboxXsalsa20poly1305Noncebytes"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_open",
+    "c++": "crypto_secretbox_xsalsa20poly1305_open(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoSecretboxXsalsa20poly1305Open"
+  },
+  {
+    "mangle": "crypto_secretbox_xsalsa20poly1305_zerobytes",
+    "c++": "crypto_secretbox_xsalsa20poly1305_zerobytes()",
+    "go": "CryptoSecretboxXsalsa20poly1305Zerobytes"
+  },
+  {
+    "mangle": "crypto_secretbox_zerobytes",
+    "c++": "crypto_secretbox_zerobytes()",
+    "go": "CryptoSecretboxZerobytes"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_abytes",
+    "c++": "crypto_secretstream_xchacha20poly1305_abytes()",
+    "go": "CryptoSecretstreamXchacha20poly1305Abytes"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_headerbytes",
+    "c++": "crypto_secretstream_xchacha20poly1305_headerbytes()",
+    "go": "CryptoSecretstreamXchacha20poly1305Headerbytes"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_init_pull",
+    "c++": "crypto_secretstream_xchacha20poly1305_init_pull(crypto_secretstream_xchacha20poly1305_state *, const unsigned char *, const unsigned char *)",
+    "go": "(*CryptoSecretstreamXchacha20poly1305State).CryptoSecretstreamXchacha20poly1305InitPull"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_init_push",
+    "c++": "crypto_secretstream_xchacha20poly1305_init_push(crypto_secretstream_xchacha20poly1305_state *, unsigned char *, const unsigned char *)",
+    "go": "(*CryptoSecretstreamXchacha20poly1305State).CryptoSecretstreamXchacha20poly1305InitPush"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_keybytes",
+    "c++": "crypto_secretstream_xchacha20poly1305_keybytes()",
+    "go": "CryptoSecretstreamXchacha20poly1305Keybytes"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_keygen",
+    "c++": "crypto_secretstream_xchacha20poly1305_keygen(unsigned char *)",
+    "go": "CryptoSecretstreamXchacha20poly1305Keygen"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_messagebytes_max",
+    "c++": "crypto_secretstream_xchacha20poly1305_messagebytes_max()",
+    "go": "CryptoSecretstreamXchacha20poly1305MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_pull",
+    "c++": "crypto_secretstream_xchacha20poly1305_pull(crypto_secretstream_xchacha20poly1305_state *, unsigned char *, unsigned long long *, unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoSecretstreamXchacha20poly1305State).CryptoSecretstreamXchacha20poly1305Pull"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_push",
+    "c++": "crypto_secretstream_xchacha20poly1305_push(crypto_secretstream_xchacha20poly1305_state *, unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *, unsigned long long, unsigned char)",
+    "go": "(*CryptoSecretstreamXchacha20poly1305State).CryptoSecretstreamXchacha20poly1305Push"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_rekey",
+    "c++": "crypto_secretstream_xchacha20poly1305_rekey(crypto_secretstream_xchacha20poly1305_state *)",
+    "go": "(*CryptoSecretstreamXchacha20poly1305State).CryptoSecretstreamXchacha20poly1305Rekey"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_statebytes",
+    "c++": "crypto_secretstream_xchacha20poly1305_statebytes()",
+    "go": "CryptoSecretstreamXchacha20poly1305Statebytes"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_tag_final",
+    "c++": "crypto_secretstream_xchacha20poly1305_tag_final()",
+    "go": "CryptoSecretstreamXchacha20poly1305TagFinal"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_tag_message",
+    "c++": "crypto_secretstream_xchacha20poly1305_tag_message()",
+    "go": "CryptoSecretstreamXchacha20poly1305TagMessage"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_tag_push",
+    "c++": "crypto_secretstream_xchacha20poly1305_tag_push()",
+    "go": "CryptoSecretstreamXchacha20poly1305TagPush"
+  },
+  {
+    "mangle": "crypto_secretstream_xchacha20poly1305_tag_rekey",
+    "c++": "crypto_secretstream_xchacha20poly1305_tag_rekey()",
+    "go": "CryptoSecretstreamXchacha20poly1305TagRekey"
+  },
+  {
+    "mangle": "crypto_shorthash",
+    "c++": "crypto_shorthash(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoShorthash"
+  },
+  {
+    "mangle": "crypto_shorthash_bytes",
+    "c++": "crypto_shorthash_bytes()",
+    "go": "CryptoShorthashBytes"
+  },
+  {
+    "mangle": "crypto_shorthash_keybytes",
+    "c++": "crypto_shorthash_keybytes()",
+    "go": "CryptoShorthashKeybytes"
+  },
+  {
+    "mangle": "crypto_shorthash_keygen",
+    "c++": "crypto_shorthash_keygen(unsigned char *)",
+    "go": "CryptoShorthashKeygen"
+  },
+  {
+    "mangle": "crypto_shorthash_primitive",
+    "c++": "crypto_shorthash_primitive()",
+    "go": "CryptoShorthashPrimitive"
+  },
+  {
+    "mangle": "crypto_shorthash_siphash24",
+    "c++": "crypto_shorthash_siphash24(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoShorthashSiphash24"
+  },
+  {
+    "mangle": "crypto_shorthash_siphash24_bytes",
+    "c++": "crypto_shorthash_siphash24_bytes()",
+    "go": "CryptoShorthashSiphash24Bytes"
+  },
+  {
+    "mangle": "crypto_shorthash_siphash24_keybytes",
+    "c++": "crypto_shorthash_siphash24_keybytes()",
+    "go": "CryptoShorthashSiphash24Keybytes"
+  },
+  {
+    "mangle": "crypto_shorthash_siphashx24",
+    "c++": "crypto_shorthash_siphashx24(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoShorthashSiphashx24"
+  },
+  {
+    "mangle": "crypto_shorthash_siphashx24_bytes",
+    "c++": "crypto_shorthash_siphashx24_bytes()",
+    "go": "CryptoShorthashSiphashx24Bytes"
+  },
+  {
+    "mangle": "crypto_shorthash_siphashx24_keybytes",
+    "c++": "crypto_shorthash_siphashx24_keybytes()",
+    "go": "CryptoShorthashSiphashx24Keybytes"
+  },
+  {
+    "mangle": "crypto_sign",
+    "c++": "crypto_sign(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSign"
+  },
+  {
+    "mangle": "crypto_sign_bytes",
+    "c++": "crypto_sign_bytes()",
+    "go": "CryptoSignBytes"
+  },
+  {
+    "mangle": "crypto_sign_detached",
+    "c++": "crypto_sign_detached(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignDetached"
+  },
+  {
+    "mangle": "crypto_sign_ed25519",
+    "c++": "crypto_sign_ed25519(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEd25519"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_bytes",
+    "c++": "crypto_sign_ed25519_bytes()",
+    "go": "CryptoSignEd25519Bytes"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_detached",
+    "c++": "crypto_sign_ed25519_detached(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEd25519Detached"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_keypair",
+    "c++": "crypto_sign_ed25519_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoSignEd25519Keypair"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_messagebytes_max",
+    "c++": "crypto_sign_ed25519_messagebytes_max()",
+    "go": "CryptoSignEd25519MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_open",
+    "c++": "crypto_sign_ed25519_open(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEd25519Open"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_pk_to_curve25519",
+    "c++": "crypto_sign_ed25519_pk_to_curve25519(unsigned char *, const unsigned char *)",
+    "go": "CryptoSignEd25519PkToCurve25519"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_publickeybytes",
+    "c++": "crypto_sign_ed25519_publickeybytes()",
+    "go": "CryptoSignEd25519Publickeybytes"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_secretkeybytes",
+    "c++": "crypto_sign_ed25519_secretkeybytes()",
+    "go": "CryptoSignEd25519Secretkeybytes"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_seed_keypair",
+    "c++": "crypto_sign_ed25519_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoSignEd25519SeedKeypair"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_seedbytes",
+    "c++": "crypto_sign_ed25519_seedbytes()",
+    "go": "CryptoSignEd25519Seedbytes"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_sk_to_curve25519",
+    "c++": "crypto_sign_ed25519_sk_to_curve25519(unsigned char *, const unsigned char *)",
+    "go": "CryptoSignEd25519SkToCurve25519"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_sk_to_pk",
+    "c++": "crypto_sign_ed25519_sk_to_pk(unsigned char *, const unsigned char *)",
+    "go": "CryptoSignEd25519SkToPk"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_sk_to_seed",
+    "c++": "crypto_sign_ed25519_sk_to_seed(unsigned char *, const unsigned char *)",
+    "go": "CryptoSignEd25519SkToSeed"
+  },
+  {
+    "mangle": "crypto_sign_ed25519_verify_detached",
+    "c++": "crypto_sign_ed25519_verify_detached(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEd25519VerifyDetached"
+  },
+  {
+    "mangle": "crypto_sign_ed25519ph_final_create",
+    "c++": "crypto_sign_ed25519ph_final_create(crypto_sign_ed25519ph_state *, unsigned char *, unsigned long long *, const unsigned char *)",
+    "go": "(*CryptoSignEd25519phState).CryptoSignEd25519phFinalCreate"
+  },
+  {
+    "mangle": "crypto_sign_ed25519ph_final_verify",
+    "c++": "crypto_sign_ed25519ph_final_verify(crypto_sign_ed25519ph_state *, const unsigned char *, const unsigned char *)",
+    "go": "(*CryptoSignEd25519phState).CryptoSignEd25519phFinalVerify"
+  },
+  {
+    "mangle": "crypto_sign_ed25519ph_init",
+    "c++": "crypto_sign_ed25519ph_init(crypto_sign_ed25519ph_state *)",
+    "go": "(*CryptoSignEd25519phState).CryptoSignEd25519phInit"
+  },
+  {
+    "mangle": "crypto_sign_ed25519ph_statebytes",
+    "c++": "crypto_sign_ed25519ph_statebytes()",
+    "go": "CryptoSignEd25519phStatebytes"
+  },
+  {
+    "mangle": "crypto_sign_ed25519ph_update",
+    "c++": "crypto_sign_ed25519ph_update(crypto_sign_ed25519ph_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoSignEd25519phState).CryptoSignEd25519phUpdate"
+  },
+  {
+    "mangle": "crypto_sign_edwards25519sha512batch",
+    "c++": "crypto_sign_edwards25519sha512batch(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEdwards25519sha512batch"
+  },
+  {
+    "mangle": "crypto_sign_edwards25519sha512batch_keypair",
+    "c++": "crypto_sign_edwards25519sha512batch_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoSignEdwards25519sha512batchKeypair"
+  },
+  {
+    "mangle": "crypto_sign_edwards25519sha512batch_open",
+    "c++": "crypto_sign_edwards25519sha512batch_open(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignEdwards25519sha512batchOpen"
+  },
+  {
+    "mangle": "crypto_sign_final_create",
+    "c++": "crypto_sign_final_create(crypto_sign_state *, unsigned char *, unsigned long long *, const unsigned char *)",
+    "go": "(*CryptoSignState).CryptoSignFinalCreate"
+  },
+  {
+    "mangle": "crypto_sign_final_verify",
+    "c++": "crypto_sign_final_verify(crypto_sign_state *, const unsigned char *, const unsigned char *)",
+    "go": "(*CryptoSignState).CryptoSignFinalVerify"
+  },
+  {
+    "mangle": "crypto_sign_init",
+    "c++": "crypto_sign_init(crypto_sign_state *)",
+    "go": "(*CryptoSignState).CryptoSignInit"
+  },
+  {
+    "mangle": "crypto_sign_keypair",
+    "c++": "crypto_sign_keypair(unsigned char *, unsigned char *)",
+    "go": "CryptoSignKeypair"
+  },
+  {
+    "mangle": "crypto_sign_messagebytes_max",
+    "c++": "crypto_sign_messagebytes_max()",
+    "go": "CryptoSignMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_sign_open",
+    "c++": "crypto_sign_open(unsigned char *, unsigned long long *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignOpen"
+  },
+  {
+    "mangle": "crypto_sign_primitive",
+    "c++": "crypto_sign_primitive()",
+    "go": "CryptoSignPrimitive"
+  },
+  {
+    "mangle": "crypto_sign_publickeybytes",
+    "c++": "crypto_sign_publickeybytes()",
+    "go": "CryptoSignPublickeybytes"
+  },
+  {
+    "mangle": "crypto_sign_secretkeybytes",
+    "c++": "crypto_sign_secretkeybytes()",
+    "go": "CryptoSignSecretkeybytes"
+  },
+  {
+    "mangle": "crypto_sign_seed_keypair",
+    "c++": "crypto_sign_seed_keypair(unsigned char *, unsigned char *, const unsigned char *)",
+    "go": "CryptoSignSeedKeypair"
+  },
+  {
+    "mangle": "crypto_sign_seedbytes",
+    "c++": "crypto_sign_seedbytes()",
+    "go": "CryptoSignSeedbytes"
+  },
+  {
+    "mangle": "crypto_sign_statebytes",
+    "c++": "crypto_sign_statebytes()",
+    "go": "CryptoSignStatebytes"
+  },
+  {
+    "mangle": "crypto_sign_update",
+    "c++": "crypto_sign_update(crypto_sign_state *, const unsigned char *, unsigned long long)",
+    "go": "(*CryptoSignState).CryptoSignUpdate"
+  },
+  {
+    "mangle": "crypto_sign_verify_detached",
+    "c++": "crypto_sign_verify_detached(const unsigned char *, const unsigned char *, unsigned long long, const unsigned char *)",
+    "go": "CryptoSignVerifyDetached"
+  },
+  {
+    "mangle": "crypto_stream",
+    "c++": "crypto_stream(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStream"
+  },
+  {
+    "mangle": "crypto_stream_chacha20",
+    "c++": "crypto_stream_chacha20(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamChacha20"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf",
+    "c++": "crypto_stream_chacha20_ietf(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamChacha20Ietf"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_keybytes",
+    "c++": "crypto_stream_chacha20_ietf_keybytes()",
+    "go": "CryptoStreamChacha20IetfKeybytes"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_keygen",
+    "c++": "crypto_stream_chacha20_ietf_keygen(unsigned char *)",
+    "go": "CryptoStreamChacha20IetfKeygen"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_messagebytes_max",
+    "c++": "crypto_stream_chacha20_ietf_messagebytes_max()",
+    "go": "CryptoStreamChacha20IetfMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_noncebytes",
+    "c++": "crypto_stream_chacha20_ietf_noncebytes()",
+    "go": "CryptoStreamChacha20IetfNoncebytes"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_xor",
+    "c++": "crypto_stream_chacha20_ietf_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamChacha20IetfXor"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_ietf_xor_ic",
+    "c++": "crypto_stream_chacha20_ietf_xor_ic(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, uint32_t, const unsigned char *)",
+    "go": "CryptoStreamChacha20IetfXorIc"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_keybytes",
+    "c++": "crypto_stream_chacha20_keybytes()",
+    "go": "CryptoStreamChacha20Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_keygen",
+    "c++": "crypto_stream_chacha20_keygen(unsigned char *)",
+    "go": "CryptoStreamChacha20Keygen"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_messagebytes_max",
+    "c++": "crypto_stream_chacha20_messagebytes_max()",
+    "go": "CryptoStreamChacha20MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_noncebytes",
+    "c++": "crypto_stream_chacha20_noncebytes()",
+    "go": "CryptoStreamChacha20Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_xor",
+    "c++": "crypto_stream_chacha20_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamChacha20Xor"
+  },
+  {
+    "mangle": "crypto_stream_chacha20_xor_ic",
+    "c++": "crypto_stream_chacha20_xor_ic(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, uint64_t, const unsigned char *)",
+    "go": "CryptoStreamChacha20XorIc"
+  },
+  {
+    "mangle": "crypto_stream_keybytes",
+    "c++": "crypto_stream_keybytes()",
+    "go": "CryptoStreamKeybytes"
+  },
+  {
+    "mangle": "crypto_stream_keygen",
+    "c++": "crypto_stream_keygen(unsigned char *)",
+    "go": "CryptoStreamKeygen"
+  },
+  {
+    "mangle": "crypto_stream_messagebytes_max",
+    "c++": "crypto_stream_messagebytes_max()",
+    "go": "CryptoStreamMessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_noncebytes",
+    "c++": "crypto_stream_noncebytes()",
+    "go": "CryptoStreamNoncebytes"
+  },
+  {
+    "mangle": "crypto_stream_primitive",
+    "c++": "crypto_stream_primitive()",
+    "go": "CryptoStreamPrimitive"
+  },
+  {
+    "mangle": "crypto_stream_salsa20",
+    "c++": "crypto_stream_salsa20(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa20"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012",
+    "c++": "crypto_stream_salsa2012(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa2012"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012_keybytes",
+    "c++": "crypto_stream_salsa2012_keybytes()",
+    "go": "CryptoStreamSalsa2012Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012_keygen",
+    "c++": "crypto_stream_salsa2012_keygen(unsigned char *)",
+    "go": "CryptoStreamSalsa2012Keygen"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012_messagebytes_max",
+    "c++": "crypto_stream_salsa2012_messagebytes_max()",
+    "go": "CryptoStreamSalsa2012MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012_noncebytes",
+    "c++": "crypto_stream_salsa2012_noncebytes()",
+    "go": "CryptoStreamSalsa2012Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa2012_xor",
+    "c++": "crypto_stream_salsa2012_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa2012Xor"
+  },
+  {
+    "mangle": "crypto_stream_salsa208",
+    "c++": "crypto_stream_salsa208(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa208"
+  },
+  {
+    "mangle": "crypto_stream_salsa208_keybytes",
+    "c++": "crypto_stream_salsa208_keybytes()",
+    "go": "CryptoStreamSalsa208Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa208_keygen",
+    "c++": "crypto_stream_salsa208_keygen(unsigned char *)",
+    "go": "CryptoStreamSalsa208Keygen"
+  },
+  {
+    "mangle": "crypto_stream_salsa208_messagebytes_max",
+    "c++": "crypto_stream_salsa208_messagebytes_max()",
+    "go": "CryptoStreamSalsa208MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_salsa208_noncebytes",
+    "c++": "crypto_stream_salsa208_noncebytes()",
+    "go": "CryptoStreamSalsa208Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa208_xor",
+    "c++": "crypto_stream_salsa208_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa208Xor"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_keybytes",
+    "c++": "crypto_stream_salsa20_keybytes()",
+    "go": "CryptoStreamSalsa20Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_keygen",
+    "c++": "crypto_stream_salsa20_keygen(unsigned char *)",
+    "go": "CryptoStreamSalsa20Keygen"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_messagebytes_max",
+    "c++": "crypto_stream_salsa20_messagebytes_max()",
+    "go": "CryptoStreamSalsa20MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_noncebytes",
+    "c++": "crypto_stream_salsa20_noncebytes()",
+    "go": "CryptoStreamSalsa20Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_xor",
+    "c++": "crypto_stream_salsa20_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamSalsa20Xor"
+  },
+  {
+    "mangle": "crypto_stream_salsa20_xor_ic",
+    "c++": "crypto_stream_salsa20_xor_ic(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, uint64_t, const unsigned char *)",
+    "go": "CryptoStreamSalsa20XorIc"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20",
+    "c++": "crypto_stream_xchacha20(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamXchacha20"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_keybytes",
+    "c++": "crypto_stream_xchacha20_keybytes()",
+    "go": "CryptoStreamXchacha20Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_keygen",
+    "c++": "crypto_stream_xchacha20_keygen(unsigned char *)",
+    "go": "CryptoStreamXchacha20Keygen"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_messagebytes_max",
+    "c++": "crypto_stream_xchacha20_messagebytes_max()",
+    "go": "CryptoStreamXchacha20MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_noncebytes",
+    "c++": "crypto_stream_xchacha20_noncebytes()",
+    "go": "CryptoStreamXchacha20Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_xor",
+    "c++": "crypto_stream_xchacha20_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamXchacha20Xor"
+  },
+  {
+    "mangle": "crypto_stream_xchacha20_xor_ic",
+    "c++": "crypto_stream_xchacha20_xor_ic(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, uint64_t, const unsigned char *)",
+    "go": "CryptoStreamXchacha20XorIc"
+  },
+  {
+    "mangle": "crypto_stream_xor",
+    "c++": "crypto_stream_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamXor"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20",
+    "c++": "crypto_stream_xsalsa20(unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamXsalsa20"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_keybytes",
+    "c++": "crypto_stream_xsalsa20_keybytes()",
+    "go": "CryptoStreamXsalsa20Keybytes"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_keygen",
+    "c++": "crypto_stream_xsalsa20_keygen(unsigned char *)",
+    "go": "CryptoStreamXsalsa20Keygen"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_messagebytes_max",
+    "c++": "crypto_stream_xsalsa20_messagebytes_max()",
+    "go": "CryptoStreamXsalsa20MessagebytesMax"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_noncebytes",
+    "c++": "crypto_stream_xsalsa20_noncebytes()",
+    "go": "CryptoStreamXsalsa20Noncebytes"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_xor",
+    "c++": "crypto_stream_xsalsa20_xor(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, const unsigned char *)",
+    "go": "CryptoStreamXsalsa20Xor"
+  },
+  {
+    "mangle": "crypto_stream_xsalsa20_xor_ic",
+    "c++": "crypto_stream_xsalsa20_xor_ic(unsigned char *, const unsigned char *, unsigned long long, const unsigned char *, uint64_t, const unsigned char *)",
+    "go": "CryptoStreamXsalsa20XorIc"
+  },
+  {
+    "mangle": "crypto_verify_16",
+    "c++": "crypto_verify_16(const unsigned char *, const unsigned char *)",
+    "go": "CryptoVerify16"
+  },
+  {
+    "mangle": "crypto_verify_16_bytes",
+    "c++": "crypto_verify_16_bytes()",
+    "go": "CryptoVerify16Bytes"
+  },
+  {
+    "mangle": "crypto_verify_32",
+    "c++": "crypto_verify_32(const unsigned char *, const unsigned char *)",
+    "go": "CryptoVerify32"
+  },
+  {
+    "mangle": "crypto_verify_32_bytes",
+    "c++": "crypto_verify_32_bytes()",
+    "go": "CryptoVerify32Bytes"
+  },
+  {
+    "mangle": "crypto_verify_64",
+    "c++": "crypto_verify_64(const unsigned char *, const unsigned char *)",
+    "go": "CryptoVerify64"
+  },
+  {
+    "mangle": "crypto_verify_64_bytes",
+    "c++": "crypto_verify_64_bytes()",
+    "go": "CryptoVerify64Bytes"
+  },
+  {
+    "mangle": "randombytes",
+    "c++": "randombytes(unsigned char *const, const unsigned long long)",
+    "go": "Randombytes"
+  },
+  {
+    "mangle": "randombytes_buf",
+    "c++": "randombytes_buf(void *const, const size_t)",
+    "go": "RandombytesBuf"
+  },
+  {
+    "mangle": "randombytes_buf_deterministic",
+    "c++": "randombytes_buf_deterministic(void *const, const size_t, const unsigned char *)",
+    "go": "RandombytesBufDeterministic"
+  },
+  {
+    "mangle": "randombytes_close",
+    "c++": "randombytes_close()",
+    "go": "RandombytesClose"
+  },
+  {
+    "mangle": "randombytes_implementation_name",
+    "c++": "randombytes_implementation_name()",
+    "go": "RandombytesImplementationName"
+  },
+  {
+    "mangle": "randombytes_random",
+    "c++": "randombytes_random()",
+    "go": "RandombytesRandom"
+  },
+  {
+    "mangle": "randombytes_seedbytes",
+    "c++": "randombytes_seedbytes()",
+    "go": "RandombytesSeedbytes"
+  },
+  {
+    "mangle": "randombytes_set_implementation",
+    "c++": "randombytes_set_implementation(const randombytes_implementation *)",
+    "go": "(*RandombytesImplementation).RandombytesSetImplementation"
+  },
+  {
+    "mangle": "randombytes_stir",
+    "c++": "randombytes_stir()",
+    "go": "RandombytesStir"
+  },
+  {
+    "mangle": "randombytes_uniform",
+    "c++": "randombytes_uniform(const uint32_t)",
+    "go": "RandombytesUniform"
+  },
+  {
+    "mangle": "sodium_add",
+    "c++": "sodium_add(unsigned char *, const unsigned char *, const size_t)",
+    "go": "SodiumAdd"
+  },
+  {
+    "mangle": "sodium_allocarray",
+    "c++": "sodium_allocarray(size_t, size_t)",
+    "go": "SodiumAllocarray"
+  },
+  {
+    "mangle": "sodium_base642bin",
+    "c++": "sodium_base642bin(unsigned char *const, const size_t, const char *const, const size_t, const char *const, size_t *const, const char **const, const int)",
+    "go": "SodiumBase642bin"
+  },
+  {
+    "mangle": "sodium_base64_encoded_len",
+    "c++": "sodium_base64_encoded_len(const size_t, const int)",
+    "go": "SodiumBase64EncodedLen"
+  },
+  {
+    "mangle": "sodium_bin2base64",
+    "c++": "sodium_bin2base64(char *const, const size_t, const unsigned char *const, const size_t, const int)",
+    "go": "SodiumBin2base64"
+  },
+  {
+    "mangle": "sodium_bin2hex",
+    "c++": "sodium_bin2hex(char *const, const size_t, const unsigned char *const, const size_t)",
+    "go": "SodiumBin2hex"
+  },
+  {
+    "mangle": "sodium_compare",
+    "c++": "sodium_compare(const unsigned char *, const unsigned char *, size_t)",
+    "go": "SodiumCompare"
+  },
+  {
+    "mangle": "sodium_free",
+    "c++": "sodium_free(void *)",
+    "go": "SodiumFree"
+  },
+  {
+    "mangle": "sodium_hex2bin",
+    "c++": "sodium_hex2bin(unsigned char *const, const size_t, const char *const, const size_t, const char *const, size_t *const, const char **const)",
+    "go": "SodiumHex2bin"
+  },
+  {
+    "mangle": "sodium_increment",
+    "c++": "sodium_increment(unsigned char *, const size_t)",
+    "go": "SodiumIncrement"
+  },
+  {
+    "mangle": "sodium_init",
+    "c++": "sodium_init()",
+    "go": "SodiumInit"
+  },
+  {
+    "mangle": "sodium_is_zero",
+    "c++": "sodium_is_zero(const unsigned char *, const size_t)",
+    "go": "SodiumIsZero"
+  },
+  {
+    "mangle": "sodium_library_minimal",
+    "c++": "sodium_library_minimal()",
+    "go": "SodiumLibraryMinimal"
+  },
+  {
+    "mangle": "sodium_library_version_major",
+    "c++": "sodium_library_version_major()",
+    "go": "SodiumLibraryVersionMajor"
+  },
+  {
+    "mangle": "sodium_library_version_minor",
+    "c++": "sodium_library_version_minor()",
+    "go": "SodiumLibraryVersionMinor"
+  },
+  {
+    "mangle": "sodium_malloc",
+    "c++": "sodium_malloc(const size_t)",
+    "go": "SodiumMalloc"
+  },
+  {
+    "mangle": "sodium_memcmp",
+    "c++": "sodium_memcmp(const void *const, const void *const, size_t)",
+    "go": "SodiumMemcmp"
+  },
+  {
+    "mangle": "sodium_memzero",
+    "c++": "sodium_memzero(void *const, const size_t)",
+    "go": "SodiumMemzero"
+  },
+  {
+    "mangle": "sodium_misuse",
+    "c++": "sodium_misuse()",
+    "go": "SodiumMisuse"
+  },
+  {
+    "mangle": "sodium_mlock",
+    "c++": "sodium_mlock(void *const, const size_t)",
+    "go": "SodiumMlock"
+  },
+  {
+    "mangle": "sodium_mprotect_noaccess",
+    "c++": "sodium_mprotect_noaccess(void *)",
+    "go": "SodiumMprotectNoaccess"
+  },
+  {
+    "mangle": "sodium_mprotect_readonly",
+    "c++": "sodium_mprotect_readonly(void *)",
+    "go": "SodiumMprotectReadonly"
+  },
+  {
+    "mangle": "sodium_mprotect_readwrite",
+    "c++": "sodium_mprotect_readwrite(void *)",
+    "go": "SodiumMprotectReadwrite"
+  },
+  {
+    "mangle": "sodium_munlock",
+    "c++": "sodium_munlock(void *const, const size_t)",
+    "go": "SodiumMunlock"
+  },
+  {
+    "mangle": "sodium_pad",
+    "c++": "sodium_pad(size_t *, unsigned char *, size_t, size_t, size_t)",
+    "go": "SodiumPad"
+  },
+  {
+    "mangle": "sodium_runtime_has_aesni",
+    "c++": "sodium_runtime_has_aesni()",
+    "go": "SodiumRuntimeHasAesni"
+  },
+  {
+    "mangle": "sodium_runtime_has_armcrypto",
+    "c++": "sodium_runtime_has_armcrypto()",
+    "go": "SodiumRuntimeHasArmcrypto"
+  },
+  {
+    "mangle": "sodium_runtime_has_avx",
+    "c++": "sodium_runtime_has_avx()",
+    "go": "SodiumRuntimeHasAvx"
+  },
+  {
+    "mangle": "sodium_runtime_has_avx2",
+    "c++": "sodium_runtime_has_avx2()",
+    "go": "SodiumRuntimeHasAvx2"
+  },
+  {
+    "mangle": "sodium_runtime_has_avx512f",
+    "c++": "sodium_runtime_has_avx512f()",
+    "go": "SodiumRuntimeHasAvx512f"
+  },
+  {
+    "mangle": "sodium_runtime_has_neon",
+    "c++": "sodium_runtime_has_neon()",
+    "go": "SodiumRuntimeHasNeon"
+  },
+  {
+    "mangle": "sodium_runtime_has_pclmul",
+    "c++": "sodium_runtime_has_pclmul()",
+    "go": "SodiumRuntimeHasPclmul"
+  },
+  {
+    "mangle": "sodium_runtime_has_rdrand",
+    "c++": "sodium_runtime_has_rdrand()",
+    "go": "SodiumRuntimeHasRdrand"
+  },
+  {
+    "mangle": "sodium_runtime_has_sse2",
+    "c++": "sodium_runtime_has_sse2()",
+    "go": "SodiumRuntimeHasSse2"
+  },
+  {
+    "mangle": "sodium_runtime_has_sse3",
+    "c++": "sodium_runtime_has_sse3()",
+    "go": "SodiumRuntimeHasSse3"
+  },
+  {
+    "mangle": "sodium_runtime_has_sse41",
+    "c++": "sodium_runtime_has_sse41()",
+    "go": "SodiumRuntimeHasSse41"
+  },
+  {
+    "mangle": "sodium_runtime_has_ssse3",
+    "c++": "sodium_runtime_has_ssse3()",
+    "go": "SodiumRuntimeHasSsse3"
+  },
+  {
+    "mangle": "sodium_set_misuse_handler",
+    "c++": "sodium_set_misuse_handler(void (*)(void))",
+    "go": "SodiumSetMisuseHandler"
+  },
+  {
+    "mangle": "sodium_stackzero",
+    "c++": "sodium_stackzero(const size_t)",
+    "go": "SodiumStackzero"
+  },
+  {
+    "mangle": "sodium_sub",
+    "c++": "sodium_sub(unsigned char *, const unsigned char *, const size_t)",
+    "go": "SodiumSub"
+  },
+  {
+    "mangle": "sodium_unpad",
+    "c++": "sodium_unpad(size_t *, const unsigned char *, size_t, size_t)",
+    "go": "SodiumUnpad"
+  },
+  {
+    "mangle": "sodium_version_string",
+    "c++": "sodium_version_string()",
+    "go": "SodiumVersionString"
+  }
+]

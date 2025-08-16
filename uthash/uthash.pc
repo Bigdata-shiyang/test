@@ -1,0 +1,7 @@
+prefix=/Users/admin/.conan2/p/uthas127d6e4105036/p
+includedir=${prefix}/include
+
+Name: uthash
+Description: Conan package: uthash
+Version: 2.3.0
+Cflags: -I"${includedir}"

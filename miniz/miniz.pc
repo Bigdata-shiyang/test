@@ -1,0 +1,11 @@
+prefix=/Users/admin/.conan2/p/b/miniz95c3c0244a10a/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+includedir1=${prefix}/include/miniz
+bindir=${prefix}/bin
+
+Name: miniz
+Description: Conan package: miniz
+Version: 3.0.2
+Libs: -L"${libdir}" -lminiz
+Cflags: -I"${includedir}" -I"${includedir1}"

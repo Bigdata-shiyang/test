@@ -1,0 +1,10 @@
+prefix=/Users/admin/.conan2/p/b/libso13ee2903afd8b/p
+libdir=${prefix}/lib
+includedir=${prefix}/include
+bindir=${prefix}/bin
+
+Name: libsodium
+Description: Conan package: libsodium
+Version: 1.0.20
+Libs: -L"${libdir}" -lsodium
+Cflags: -I"${includedir}"
