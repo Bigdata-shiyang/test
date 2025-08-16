@@ -1,0 +1,577 @@
+[
+  {
+    "mangle": "miniz_def_alloc_func",
+    "c++": "miniz_def_alloc_func(void *, size_t, size_t)",
+    "go": "MinizDefAllocFunc"
+  },
+  {
+    "mangle": "miniz_def_free_func",
+    "c++": "miniz_def_free_func(void *, void *)",
+    "go": "MinizDefFreeFunc"
+  },
+  {
+    "mangle": "miniz_def_realloc_func",
+    "c++": "miniz_def_realloc_func(void *, void *, size_t, size_t)",
+    "go": "MinizDefReallocFunc"
+  },
+  {
+    "mangle": "mz_adler32",
+    "c++": "mz_adler32(mz_ulong, const unsigned char *, size_t)",
+    "go": "MzUlong.MzAdler32"
+  },
+  {
+    "mangle": "mz_compress",
+    "c++": "mz_compress(unsigned char *, mz_ulong *, const unsigned char *, mz_ulong)",
+    "go": "MzCompress"
+  },
+  {
+    "mangle": "mz_compress2",
+    "c++": "mz_compress2(unsigned char *, mz_ulong *, const unsigned char *, mz_ulong, int)",
+    "go": "MzCompress2"
+  },
+  {
+    "mangle": "mz_compressBound",
+    "c++": "mz_compressBound(mz_ulong)",
+    "go": "MzUlong.MzCompressBound"
+  },
+  {
+    "mangle": "mz_crc32",
+    "c++": "mz_crc32(mz_ulong, const unsigned char *, size_t)",
+    "go": "MzUlong.MzCrc32"
+  },
+  {
+    "mangle": "mz_deflate",
+    "c++": "mz_deflate(mz_streamp, int)",
+    "go": "MzDeflate"
+  },
+  {
+    "mangle": "mz_deflateBound",
+    "c++": "mz_deflateBound(mz_streamp, mz_ulong)",
+    "go": "MzDeflateBound"
+  },
+  {
+    "mangle": "mz_deflateEnd",
+    "c++": "mz_deflateEnd(mz_streamp)",
+    "go": "MzDeflateEnd"
+  },
+  {
+    "mangle": "mz_deflateInit",
+    "c++": "mz_deflateInit(mz_streamp, int)",
+    "go": "MzDeflateInit"
+  },
+  {
+    "mangle": "mz_deflateInit2",
+    "c++": "mz_deflateInit2(mz_streamp, int, int, int, int, int)",
+    "go": "MzDeflateInit2"
+  },
+  {
+    "mangle": "mz_deflateReset",
+    "c++": "mz_deflateReset(mz_streamp)",
+    "go": "MzDeflateReset"
+  },
+  {
+    "mangle": "mz_error",
+    "c++": "mz_error(int)",
+    "go": "MzError"
+  },
+  {
+    "mangle": "mz_free",
+    "c++": "mz_free(void *)",
+    "go": "MzFree"
+  },
+  {
+    "mangle": "mz_inflate",
+    "c++": "mz_inflate(mz_streamp, int)",
+    "go": "MzInflate"
+  },
+  {
+    "mangle": "mz_inflateEnd",
+    "c++": "mz_inflateEnd(mz_streamp)",
+    "go": "MzInflateEnd"
+  },
+  {
+    "mangle": "mz_inflateInit",
+    "c++": "mz_inflateInit(mz_streamp)",
+    "go": "MzInflateInit"
+  },
+  {
+    "mangle": "mz_inflateInit2",
+    "c++": "mz_inflateInit2(mz_streamp, int)",
+    "go": "MzInflateInit2"
+  },
+  {
+    "mangle": "mz_inflateReset",
+    "c++": "mz_inflateReset(mz_streamp)",
+    "go": "MzInflateReset"
+  },
+  {
+    "mangle": "mz_uncompress",
+    "c++": "mz_uncompress(unsigned char *, mz_ulong *, const unsigned char *, mz_ulong)",
+    "go": "MzUncompress"
+  },
+  {
+    "mangle": "mz_uncompress2",
+    "c++": "mz_uncompress2(unsigned char *, mz_ulong *, const unsigned char *, mz_ulong *)",
+    "go": "MzUncompress2"
+  },
+  {
+    "mangle": "mz_version",
+    "c++": "mz_version()",
+    "go": "MzVersion"
+  },
+  {
+    "mangle": "mz_zip_add_mem_to_archive_file_in_place",
+    "c++": "mz_zip_add_mem_to_archive_file_in_place(const char *, const char *, const void *, size_t, const void *, mz_uint16, mz_uint)",
+    "go": "MzZipAddMemToArchiveFileInPlace"
+  },
+  {
+    "mangle": "mz_zip_add_mem_to_archive_file_in_place_v2",
+    "c++": "mz_zip_add_mem_to_archive_file_in_place_v2(const char *, const char *, const void *, size_t, const void *, mz_uint16, mz_uint, mz_zip_error *)",
+    "go": "MzZipAddMemToArchiveFileInPlaceV2"
+  },
+  {
+    "mangle": "mz_zip_clear_last_error",
+    "c++": "mz_zip_clear_last_error(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipClearLastError"
+  },
+  {
+    "mangle": "mz_zip_end",
+    "c++": "mz_zip_end(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipEnd"
+  },
+  {
+    "mangle": "mz_zip_extract_archive_file_to_heap",
+    "c++": "mz_zip_extract_archive_file_to_heap(const char *, const char *, size_t *, mz_uint)",
+    "go": "MzZipExtractArchiveFileToHeap"
+  },
+  {
+    "mangle": "mz_zip_extract_archive_file_to_heap_v2",
+    "c++": "mz_zip_extract_archive_file_to_heap_v2(const char *, const char *, const char *, size_t *, mz_uint, mz_zip_error *)",
+    "go": "MzZipExtractArchiveFileToHeapV2"
+  },
+  {
+    "mangle": "mz_zip_get_archive_file_start_offset",
+    "c++": "mz_zip_get_archive_file_start_offset(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetArchiveFileStartOffset"
+  },
+  {
+    "mangle": "mz_zip_get_archive_size",
+    "c++": "mz_zip_get_archive_size(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetArchiveSize"
+  },
+  {
+    "mangle": "mz_zip_get_central_dir_size",
+    "c++": "mz_zip_get_central_dir_size(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetCentralDirSize"
+  },
+  {
+    "mangle": "mz_zip_get_cfile",
+    "c++": "mz_zip_get_cfile(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetCfile"
+  },
+  {
+    "mangle": "mz_zip_get_error_string",
+    "c++": "mz_zip_get_error_string(mz_zip_error)",
+    "go": "MzZipError.MzZipGetErrorString"
+  },
+  {
+    "mangle": "mz_zip_get_last_error",
+    "c++": "mz_zip_get_last_error(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetLastError"
+  },
+  {
+    "mangle": "mz_zip_get_mode",
+    "c++": "mz_zip_get_mode(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetMode"
+  },
+  {
+    "mangle": "mz_zip_get_type",
+    "c++": "mz_zip_get_type(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipGetType"
+  },
+  {
+    "mangle": "mz_zip_is_zip64",
+    "c++": "mz_zip_is_zip64(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipIsZip64"
+  },
+  {
+    "mangle": "mz_zip_peek_last_error",
+    "c++": "mz_zip_peek_last_error(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipPeekLastError"
+  },
+  {
+    "mangle": "mz_zip_read_archive_data",
+    "c++": "mz_zip_read_archive_data(mz_zip_archive *, mz_uint64, void *, size_t)",
+    "go": "(*MzZipArchive).MzZipReadArchiveData"
+  },
+  {
+    "mangle": "mz_zip_reader_end",
+    "c++": "mz_zip_reader_end(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipReaderEnd"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_iter_new",
+    "c++": "mz_zip_reader_extract_file_iter_new(mz_zip_archive *, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileIterNew"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_callback",
+    "c++": "mz_zip_reader_extract_file_to_callback(mz_zip_archive *, const char *, mz_file_write_func, void *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToCallback"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_cfile",
+    "c++": "mz_zip_reader_extract_file_to_cfile(mz_zip_archive *, const char *, FILE *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToCfile"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_file",
+    "c++": "mz_zip_reader_extract_file_to_file(mz_zip_archive *, const char *, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToFile"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_heap",
+    "c++": "mz_zip_reader_extract_file_to_heap(mz_zip_archive *, const char *, size_t *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToHeap"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_mem",
+    "c++": "mz_zip_reader_extract_file_to_mem(mz_zip_archive *, const char *, void *, size_t, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToMem"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_file_to_mem_no_alloc",
+    "c++": "mz_zip_reader_extract_file_to_mem_no_alloc(mz_zip_archive *, const char *, void *, size_t, mz_uint, void *, size_t)",
+    "go": "(*MzZipArchive).MzZipReaderExtractFileToMemNoAlloc"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_iter_free",
+    "c++": "mz_zip_reader_extract_iter_free(mz_zip_reader_extract_iter_state *)",
+    "go": "(*MzZipReaderExtractIterState).MzZipReaderExtractIterFree"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_iter_new",
+    "c++": "mz_zip_reader_extract_iter_new(mz_zip_archive *, mz_uint, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractIterNew"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_iter_read",
+    "c++": "mz_zip_reader_extract_iter_read(mz_zip_reader_extract_iter_state *, void *, size_t)",
+    "go": "(*MzZipReaderExtractIterState).MzZipReaderExtractIterRead"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_callback",
+    "c++": "mz_zip_reader_extract_to_callback(mz_zip_archive *, mz_uint, mz_file_write_func, void *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToCallback"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_cfile",
+    "c++": "mz_zip_reader_extract_to_cfile(mz_zip_archive *, mz_uint, FILE *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToCfile"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_file",
+    "c++": "mz_zip_reader_extract_to_file(mz_zip_archive *, mz_uint, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToFile"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_heap",
+    "c++": "mz_zip_reader_extract_to_heap(mz_zip_archive *, mz_uint, size_t *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToHeap"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_mem",
+    "c++": "mz_zip_reader_extract_to_mem(mz_zip_archive *, mz_uint, void *, size_t, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToMem"
+  },
+  {
+    "mangle": "mz_zip_reader_extract_to_mem_no_alloc",
+    "c++": "mz_zip_reader_extract_to_mem_no_alloc(mz_zip_archive *, mz_uint, void *, size_t, mz_uint, void *, size_t)",
+    "go": "(*MzZipArchive).MzZipReaderExtractToMemNoAlloc"
+  },
+  {
+    "mangle": "mz_zip_reader_file_stat",
+    "c++": "mz_zip_reader_file_stat(mz_zip_archive *, mz_uint, mz_zip_archive_file_stat *)",
+    "go": "(*MzZipArchive).MzZipReaderFileStat"
+  },
+  {
+    "mangle": "mz_zip_reader_get_filename",
+    "c++": "mz_zip_reader_get_filename(mz_zip_archive *, mz_uint, char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderGetFilename"
+  },
+  {
+    "mangle": "mz_zip_reader_get_num_files",
+    "c++": "mz_zip_reader_get_num_files(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipReaderGetNumFiles"
+  },
+  {
+    "mangle": "mz_zip_reader_init",
+    "c++": "mz_zip_reader_init(mz_zip_archive *, mz_uint64, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderInit"
+  },
+  {
+    "mangle": "mz_zip_reader_init_cfile",
+    "c++": "mz_zip_reader_init_cfile(mz_zip_archive *, FILE *, mz_uint64, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderInitCfile"
+  },
+  {
+    "mangle": "mz_zip_reader_init_file",
+    "c++": "mz_zip_reader_init_file(mz_zip_archive *, const char *, mz_uint32)",
+    "go": "(*MzZipArchive).MzZipReaderInitFile"
+  },
+  {
+    "mangle": "mz_zip_reader_init_file_v2",
+    "c++": "mz_zip_reader_init_file_v2(mz_zip_archive *, const char *, mz_uint, mz_uint64, mz_uint64)",
+    "go": "(*MzZipArchive).MzZipReaderInitFileV2"
+  },
+  {
+    "mangle": "mz_zip_reader_init_mem",
+    "c++": "mz_zip_reader_init_mem(mz_zip_archive *, const void *, size_t, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderInitMem"
+  },
+  {
+    "mangle": "mz_zip_reader_is_file_a_directory",
+    "c++": "mz_zip_reader_is_file_a_directory(mz_zip_archive *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderIsFileADirectory"
+  },
+  {
+    "mangle": "mz_zip_reader_is_file_encrypted",
+    "c++": "mz_zip_reader_is_file_encrypted(mz_zip_archive *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderIsFileEncrypted"
+  },
+  {
+    "mangle": "mz_zip_reader_is_file_supported",
+    "c++": "mz_zip_reader_is_file_supported(mz_zip_archive *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderIsFileSupported"
+  },
+  {
+    "mangle": "mz_zip_reader_locate_file",
+    "c++": "mz_zip_reader_locate_file(mz_zip_archive *, const char *, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipReaderLocateFile"
+  },
+  {
+    "mangle": "mz_zip_reader_locate_file_v2",
+    "c++": "mz_zip_reader_locate_file_v2(mz_zip_archive *, const char *, const char *, mz_uint, mz_uint32 *)",
+    "go": "(*MzZipArchive).MzZipReaderLocateFileV2"
+  },
+  {
+    "mangle": "mz_zip_set_last_error",
+    "c++": "mz_zip_set_last_error(mz_zip_archive *, mz_zip_error)",
+    "go": "(*MzZipArchive).MzZipSetLastError"
+  },
+  {
+    "mangle": "mz_zip_validate_archive",
+    "c++": "mz_zip_validate_archive(mz_zip_archive *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipValidateArchive"
+  },
+  {
+    "mangle": "mz_zip_validate_file",
+    "c++": "mz_zip_validate_file(mz_zip_archive *, mz_uint, mz_uint)",
+    "go": "(*MzZipArchive).MzZipValidateFile"
+  },
+  {
+    "mangle": "mz_zip_validate_file_archive",
+    "c++": "mz_zip_validate_file_archive(const char *, mz_uint, mz_zip_error *)",
+    "go": "MzZipValidateFileArchive"
+  },
+  {
+    "mangle": "mz_zip_validate_mem_archive",
+    "c++": "mz_zip_validate_mem_archive(const void *, size_t, mz_uint, mz_zip_error *)",
+    "go": "MzZipValidateMemArchive"
+  },
+  {
+    "mangle": "mz_zip_writer_add_cfile",
+    "c++": "mz_zip_writer_add_cfile(mz_zip_archive *, const char *, FILE *, mz_uint64, const time_t *, const void *, mz_uint16, mz_uint, const char *, mz_uint, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddCfile"
+  },
+  {
+    "mangle": "mz_zip_writer_add_file",
+    "c++": "mz_zip_writer_add_file(mz_zip_archive *, const char *, const char *, const void *, mz_uint16, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddFile"
+  },
+  {
+    "mangle": "mz_zip_writer_add_from_zip_reader",
+    "c++": "mz_zip_writer_add_from_zip_reader(mz_zip_archive *, mz_zip_archive *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddFromZipReader"
+  },
+  {
+    "mangle": "mz_zip_writer_add_mem",
+    "c++": "mz_zip_writer_add_mem(mz_zip_archive *, const char *, const void *, size_t, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddMem"
+  },
+  {
+    "mangle": "mz_zip_writer_add_mem_ex",
+    "c++": "mz_zip_writer_add_mem_ex(mz_zip_archive *, const char *, const void *, size_t, const void *, mz_uint16, mz_uint, mz_uint64, mz_uint32)",
+    "go": "(*MzZipArchive).MzZipWriterAddMemEx"
+  },
+  {
+    "mangle": "mz_zip_writer_add_mem_ex_v2",
+    "c++": "mz_zip_writer_add_mem_ex_v2(mz_zip_archive *, const char *, const void *, size_t, const void *, mz_uint16, mz_uint, mz_uint64, mz_uint32, time_t *, const char *, mz_uint, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddMemExV2"
+  },
+  {
+    "mangle": "mz_zip_writer_add_read_buf_callback",
+    "c++": "mz_zip_writer_add_read_buf_callback(mz_zip_archive *, const char *, mz_file_read_func, void *, mz_uint64, const time_t *, const void *, mz_uint16, mz_uint, const char *, mz_uint, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterAddReadBufCallback"
+  },
+  {
+    "mangle": "mz_zip_writer_end",
+    "c++": "mz_zip_writer_end(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipWriterEnd"
+  },
+  {
+    "mangle": "mz_zip_writer_finalize_archive",
+    "c++": "mz_zip_writer_finalize_archive(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipWriterFinalizeArchive"
+  },
+  {
+    "mangle": "mz_zip_writer_finalize_heap_archive",
+    "c++": "mz_zip_writer_finalize_heap_archive(mz_zip_archive *, void **, size_t *)",
+    "go": "(*MzZipArchive).MzZipWriterFinalizeHeapArchive"
+  },
+  {
+    "mangle": "mz_zip_writer_init",
+    "c++": "mz_zip_writer_init(mz_zip_archive *, mz_uint64)",
+    "go": "(*MzZipArchive).MzZipWriterInit"
+  },
+  {
+    "mangle": "mz_zip_writer_init_cfile",
+    "c++": "mz_zip_writer_init_cfile(mz_zip_archive *, FILE *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterInitCfile"
+  },
+  {
+    "mangle": "mz_zip_writer_init_file",
+    "c++": "mz_zip_writer_init_file(mz_zip_archive *, const char *, mz_uint64)",
+    "go": "(*MzZipArchive).MzZipWriterInitFile"
+  },
+  {
+    "mangle": "mz_zip_writer_init_file_v2",
+    "c++": "mz_zip_writer_init_file_v2(mz_zip_archive *, const char *, mz_uint64, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterInitFileV2"
+  },
+  {
+    "mangle": "mz_zip_writer_init_from_reader",
+    "c++": "mz_zip_writer_init_from_reader(mz_zip_archive *, const char *)",
+    "go": "(*MzZipArchive).MzZipWriterInitFromReader"
+  },
+  {
+    "mangle": "mz_zip_writer_init_from_reader_v2",
+    "c++": "mz_zip_writer_init_from_reader_v2(mz_zip_archive *, const char *, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterInitFromReaderV2"
+  },
+  {
+    "mangle": "mz_zip_writer_init_heap",
+    "c++": "mz_zip_writer_init_heap(mz_zip_archive *, size_t, size_t)",
+    "go": "(*MzZipArchive).MzZipWriterInitHeap"
+  },
+  {
+    "mangle": "mz_zip_writer_init_heap_v2",
+    "c++": "mz_zip_writer_init_heap_v2(mz_zip_archive *, size_t, size_t, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterInitHeapV2"
+  },
+  {
+    "mangle": "mz_zip_writer_init_v2",
+    "c++": "mz_zip_writer_init_v2(mz_zip_archive *, mz_uint64, mz_uint)",
+    "go": "(*MzZipArchive).MzZipWriterInitV2"
+  },
+  {
+    "mangle": "mz_zip_zero_struct",
+    "c++": "mz_zip_zero_struct(mz_zip_archive *)",
+    "go": "(*MzZipArchive).MzZipZeroStruct"
+  },
+  {
+    "mangle": "tdefl_compress",
+    "c++": "tdefl_compress(tdefl_compressor *, const void *, size_t *, void *, size_t *, tdefl_flush)",
+    "go": "(*TdeflCompressor).TdeflCompress"
+  },
+  {
+    "mangle": "tdefl_compress_buffer",
+    "c++": "tdefl_compress_buffer(tdefl_compressor *, const void *, size_t, tdefl_flush)",
+    "go": "(*TdeflCompressor).TdeflCompressBuffer"
+  },
+  {
+    "mangle": "tdefl_compress_mem_to_heap",
+    "c++": "tdefl_compress_mem_to_heap(const void *, size_t, size_t *, int)",
+    "go": "TdeflCompressMemToHeap"
+  },
+  {
+    "mangle": "tdefl_compress_mem_to_mem",
+    "c++": "tdefl_compress_mem_to_mem(void *, size_t, const void *, size_t, int)",
+    "go": "TdeflCompressMemToMem"
+  },
+  {
+    "mangle": "tdefl_compress_mem_to_output",
+    "c++": "tdefl_compress_mem_to_output(const void *, size_t, tdefl_put_buf_func_ptr, void *, int)",
+    "go": "TdeflCompressMemToOutput"
+  },
+  {
+    "mangle": "tdefl_compressor_alloc",
+    "c++": "tdefl_compressor_alloc()",
+    "go": "TdeflCompressorAlloc"
+  },
+  {
+    "mangle": "tdefl_compressor_free",
+    "c++": "tdefl_compressor_free(tdefl_compressor *)",
+    "go": "(*TdeflCompressor).TdeflCompressorFree"
+  },
+  {
+    "mangle": "tdefl_create_comp_flags_from_zip_params",
+    "c++": "tdefl_create_comp_flags_from_zip_params(int, int, int)",
+    "go": "TdeflCreateCompFlagsFromZipParams"
+  },
+  {
+    "mangle": "tdefl_get_adler32",
+    "c++": "tdefl_get_adler32(tdefl_compressor *)",
+    "go": "(*TdeflCompressor).TdeflGetAdler32"
+  },
+  {
+    "mangle": "tdefl_get_prev_return_status",
+    "c++": "tdefl_get_prev_return_status(tdefl_compressor *)",
+    "go": "(*TdeflCompressor).TdeflGetPrevReturnStatus"
+  },
+  {
+    "mangle": "tdefl_init",
+    "c++": "tdefl_init(tdefl_compressor *, tdefl_put_buf_func_ptr, void *, int)",
+    "go": "(*TdeflCompressor).TdeflInit"
+  },
+  {
+    "mangle": "tdefl_write_image_to_png_file_in_memory",
+    "c++": "tdefl_write_image_to_png_file_in_memory(const void *, int, int, int, size_t *)",
+    "go": "TdeflWriteImageToPngFileInMemory"
+  },
+  {
+    "mangle": "tdefl_write_image_to_png_file_in_memory_ex",
+    "c++": "tdefl_write_image_to_png_file_in_memory_ex(const void *, int, int, int, size_t *, mz_uint, mz_bool)",
+    "go": "TdeflWriteImageToPngFileInMemoryEx"
+  },
+  {
+    "mangle": "tinfl_decompress",
+    "c++": "tinfl_decompress(tinfl_decompressor *, const mz_uint8 *, size_t *, mz_uint8 *, mz_uint8 *, size_t *, const mz_uint32)",
+    "go": "(*TinflDecompressor).TinflDecompress"
+  },
+  {
+    "mangle": "tinfl_decompress_mem_to_callback",
+    "c++": "tinfl_decompress_mem_to_callback(const void *, size_t *, tinfl_put_buf_func_ptr, void *, int)",
+    "go": "TinflDecompressMemToCallback"
+  },
+  {
+    "mangle": "tinfl_decompress_mem_to_heap",
+    "c++": "tinfl_decompress_mem_to_heap(const void *, size_t, size_t *, int)",
+    "go": "TinflDecompressMemToHeap"
+  },
+  {
+    "mangle": "tinfl_decompress_mem_to_mem",
+    "c++": "tinfl_decompress_mem_to_mem(void *, size_t, const void *, size_t, int)",
+    "go": "TinflDecompressMemToMem"
+  },
+  {
+    "mangle": "tinfl_decompressor_alloc",
+    "c++": "tinfl_decompressor_alloc()",
+    "go": "TinflDecompressorAlloc"
+  },
+  {
+    "mangle": "tinfl_decompressor_free",
+    "c++": "tinfl_decompressor_free(tinfl_decompressor *)",
+    "go": "(*TinflDecompressor).TinflDecompressorFree"
+  }
+]
